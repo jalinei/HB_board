@@ -1,0 +1,61 @@
+(version 1)
+(rule "Outer creepage"
+	(layer outer)
+	(constraint creepage (min 8mm))
+	(condition "A.hasNetclass('DGND') && B.hasNetclass('PGND')")
+)
+(rule "Outer creepage earth"
+	(layer outer)
+	(constraint creepage (min 4mm))
+	(condition "A.hasNetclass('PGND') || A.hasNetclass('GNDLS') || A.hasNetclass('IBUS') || A.hasNetclass('SWN') && B.hasNetclass('PEarth')")
+)
+(rule "Minimum clearance earth"
+	(layer outer)
+	(constraint clearance (min 4mm))
+	(condition "A.hasNetclass('PGND') && B.hasNetclass('PEarth')")
+)
+(rule "IPC2221 A6 Pads SWN/PGND"
+	(layer outer)
+	(constraint clearance (min 2.415mm))
+	(condition "A.hasNetclass('SWN') && A.Type == 'Pad' && B.hasNetclass('PGND') && B.Type == 'Pad'")
+)
+(rule "IPC2221 A6 Pads SWN/HS"
+	(layer outer)
+	(constraint clearance (min 2.415mm))
+	(condition "A.hasNetclass('SWN') && A.Type == 'Pad' && B.hasNetclass('IBUS') && B.Type == 'Pad'")
+)
+(rule "IPC2221 A6 Pads SWN/LS"
+	(layer outer)
+	(constraint clearance (min 2.415mm))
+	(condition "A.hasNetclass('SWN') && A.Type == 'Pad' && B.hasNetclass('GNDLS') && B.Type == 'Pad'")
+)
+(rule "IPC2221 A6 Pads HS/LS"
+	(layer outer)
+	(constraint clearance (min 2.415mm))
+	(condition "A.hasNetclass('IBUS') && A.Type == 'Pad' && B.hasNetclass('GNDLS') && B.Type == 'Pad'")
+)
+(rule "IPC2221 B4 Tracks SWN/LS"
+	(layer outer)
+	(constraint clearance (min 1.715mm))
+	(condition "A.hasNetclass('SWN') && B.hasNetclass('GNDLS') && (A.Type == 'Track' || A.Type == 'Zone') && (B.Type == 'Track' || B.Type == 'Zone')")
+)
+(rule "IPC2221 B4 Tracks SWN/PGND"
+	(layer outer)
+	(constraint clearance (min 1.715mm))
+	(condition "A.hasNetclass('SWN') && B.hasNetclass('PGND') && (A.Type == 'Track' || A.Type == 'Zone') && (B.Type == 'Track' || B.Type == 'Zone')")
+)
+(rule "IPC2221 B4 Tracks SWN/HS"
+	(layer outer)
+	(constraint clearance (min 1.715mm))
+	(condition "A.hasNetclass('SWN') && B.hasNetclass('IBUS') && (A.Type == 'Track' || A.Type == 'Zone') && (B.Type == 'Track' || B.Type == 'Zone')")
+)
+(rule "IPC2221 B4 Tracks HS/LS"
+	(layer outer)
+	(constraint clearance (min 1.715mm))
+	(condition "A.hasNetclass('IBUS') && B.hasNetclass('GNDLS') && (A.Type == 'Track' || A.Type == 'Zone') && (B.Type == 'Track' || B.Type == 'Zone')")
+)
+(rule "IPC2221 B4 Tracks HS/PGND"
+	(layer outer)
+	(constraint clearance (min 1.715mm))
+	(condition "A.hasNetclass('IBUS') && B.hasNetclass('PGND') && (A.Type == 'Track' || A.Type == 'Zone') && (B.Type == 'Track' || B.Type == 'Zone')")
+)

@@ -2340,6 +2340,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LT1761-SD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LT1761-SD"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MICROPOWER 100mA LDO adjustable regulator, TSOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "REGULATOR POSITIVE POWER LDO adjustable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LT1761-SD_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LT1761-SD_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Symbols:12126CNT"
 			(pin_names
 				(hide yes)
@@ -5065,6 +5254,12 @@
 		(uuid "01266ea0-a389-4248-bc23-cfc083c163fe")
 	)
 	(junction
+		(at 229.87 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0642519e-1fa8-4e57-aaab-aef7133f13fb")
+	)
+	(junction
 		(at 210.82 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5125,16 +5320,40 @@
 		(uuid "334ea3a6-0655-49df-9563-f61422662259")
 	)
 	(junction
+		(at 245.11 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "349017ee-697d-4430-86e0-7ef52bcb7dbf")
+	)
+	(junction
+		(at 261.62 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3adaa558-ce85-4d31-ac29-840d3691b7df")
+	)
+	(junction
 		(at 143.51 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ba4ba80-4a32-40a8-8cf3-f772deef2ac8")
 	)
 	(junction
+		(at 222.25 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dfba33b-6960-4a75-a21a-78e3aad18ce1")
+	)
+	(junction
 		(at 341.63 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "486053d8-5946-49fc-b934-d6e8a207ca60")
+	)
+	(junction
+		(at 222.25 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49bf2052-dda2-4815-9919-e1b0ec93e12e")
 	)
 	(junction
 		(at 129.54 262.89)
@@ -5147,12 +5366,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bb0c141-087f-4b8f-ab24-56ecfe5f80ee")
-	)
-	(junction
-		(at 237.49 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eb3729c-107d-4656-92b7-5cfcc28a8f1c")
 	)
 	(junction
 		(at 143.51 234.95)
@@ -5191,10 +5404,22 @@
 		(uuid "5ce62279-3855-4fd6-b398-264b51a00cb6")
 	)
 	(junction
+		(at 261.62 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5db151ae-e6ad-4d78-acc3-2c6c4062ad50")
+	)
+	(junction
 		(at 374.65 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5db34dec-c107-4c5c-8146-3f9f53f05fee")
+	)
+	(junction
+		(at 270.51 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e8d37f1-321f-4700-8027-dbc9ee1caa8a")
 	)
 	(junction
 		(at 146.05 24.13)
@@ -5221,12 +5446,6 @@
 		(uuid "6a47fa68-b609-4bf7-b229-37dfa288d57d")
 	)
 	(junction
-		(at 222.25 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78894a44-d98b-4ae5-b1eb-6a8bf4283d34")
-	)
-	(junction
 		(at 115.57 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5245,10 +5464,10 @@
 		(uuid "8df49f34-3571-4b71-8d8d-0a2a45fdfad6")
 	)
 	(junction
-		(at 222.25 193.04)
+		(at 245.11 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f9058da-df68-4b7c-adee-ce98b72fbc03")
+		(uuid "98323d7e-bf47-4952-80bc-310e3511af72")
 	)
 	(junction
 		(at 157.48 156.21)
@@ -5279,6 +5498,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6b17d68-905e-4294-9b8f-15b4274d1711")
+	)
+	(junction
+		(at 224.79 250.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a85614cd-9c13-4d3d-8a02-874f32135d4c")
 	)
 	(junction
 		(at 237.49 156.21)
@@ -5317,6 +5542,12 @@
 		(uuid "b1587e1a-84c4-4724-9c0c-7f43920bea98")
 	)
 	(junction
+		(at 270.51 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1ed14ea-2f9a-4f19-a9a4-3722844f22f5")
+	)
+	(junction
 		(at 168.91 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5341,6 +5572,24 @@
 		(uuid "baf4c039-0549-4608-bc58-d4929630b6d9")
 	)
 	(junction
+		(at 231.14 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd4288c5-61d8-4121-96b0-02e053ead6c1")
+	)
+	(junction
+		(at 261.62 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c139c9a7-3e47-493f-899a-85d10b82222f")
+	)
+	(junction
+		(at 261.62 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cebc88df-0a6b-4b5f-b441-3b72e5eb1995")
+	)
+	(junction
 		(at 251.46 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5353,28 +5602,22 @@
 		(uuid "d31d079c-c9f1-4040-af49-3d2b9e8ecb4b")
 	)
 	(junction
-		(at 224.79 250.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d684bd58-5da6-4d2b-9fee-1a1b90d19fda")
-	)
-	(junction
 		(at 143.51 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d74735ef-c5a9-47bd-aa0a-2d44a3130758")
 	)
 	(junction
+		(at 261.62 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d754f7bd-ef71-4593-a0fc-39fc3f14cd48")
+	)
+	(junction
 		(at 134.62 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db55f21f-489f-4903-aa3a-3e2fac9e005c")
-	)
-	(junction
-		(at 237.49 250.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7247fb3-2d3e-4c10-8328-981c3be86c41")
 	)
 	(junction
 		(at 214.63 238.76)
@@ -5399,6 +5642,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4c866ca-e8b1-4892-8233-c37b5ab373dd")
+	)
+	(junction
+		(at 261.62 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f541769a-ea10-48ae-99bb-0b49d9633784")
 	)
 	(no_connect
 		(at 151.13 198.12)
@@ -5441,6 +5690,16 @@
 			(type default)
 		)
 		(uuid "036f3e4b-2407-4efd-9ac3-a1da2a97b3a3")
+	)
+	(wire
+		(pts
+			(xy 261.62 193.04) (xy 261.62 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f32ec2-4a70-4009-887b-7556a03c30e5")
 	)
 	(wire
 		(pts
@@ -5734,13 +5993,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 193.04) (xy 222.25 193.04)
+			(xy 270.51 259.08) (xy 261.62 259.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b757295-eab5-4cef-97da-660452f66e6e")
+		(uuid "1b5747a9-e010-43f1-9d04-fe0dc3d21b2f")
 	)
 	(wire
 		(pts
@@ -5811,6 +6070,16 @@
 			(type default)
 		)
 		(uuid "20a54b2f-b9e0-46ec-8476-65df925f9949")
+	)
+	(wire
+		(pts
+			(xy 255.27 238.76) (xy 261.62 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fa2acf-c211-4991-98f4-0dd4a51df79f")
 	)
 	(wire
 		(pts
@@ -5924,6 +6193,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 213.36) (xy 270.51 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da0eb38-96b1-4de0-80cc-87fc7a2ed384")
+	)
+	(wire
+		(pts
 			(xy 115.57 189.23) (xy 115.57 198.12)
 		)
 		(stroke
@@ -5951,6 +6230,16 @@
 			(type default)
 		)
 		(uuid "3109849c-2bf6-4493-9f3e-072e3ef3e41c")
+	)
+	(wire
+		(pts
+			(xy 261.62 257.81) (xy 261.62 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31191f96-e89b-42f1-b690-8c5f701bbdb6")
 	)
 	(wire
 		(pts
@@ -6034,6 +6323,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 243.84) (xy 231.14 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378d6d60-0e41-4188-bd4e-c78450eab25f")
+	)
+	(wire
+		(pts
 			(xy 92.71 127) (xy 104.14 127)
 		)
 		(stroke
@@ -6044,7 +6343,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 238.76) (xy 237.49 238.76)
+			(xy 224.79 238.76) (xy 231.14 238.76)
 		)
 		(stroke
 			(width 0)
@@ -6191,6 +6490,16 @@
 			(type default)
 		)
 		(uuid "472bd598-be87-4d38-a1da-45291fd4ee08")
+	)
+	(wire
+		(pts
+			(xy 231.14 238.76) (xy 234.95 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47827766-51ed-4225-8133-358cf790cd30")
 	)
 	(wire
 		(pts
@@ -6354,6 +6663,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 238.76) (xy 261.62 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56173dcc-5cd3-47f8-afb0-1b9151d6e4ec")
+	)
+	(wire
+		(pts
+			(xy 222.25 193.04) (xy 229.87 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e92c8c-ee92-45d7-ac0f-dc97fe948cc4")
+	)
+	(wire
+		(pts
 			(xy 237.49 142.24) (xy 237.49 147.32)
 		)
 		(stroke
@@ -6404,6 +6733,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 198.12) (xy 229.87 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abdfed6-4de4-4a66-aae5-9afa4c99eac7")
+	)
+	(wire
+		(pts
 			(xy 287.02 40.64) (xy 290.83 44.45)
 		)
 		(stroke
@@ -6444,16 +6783,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 238.76) (xy 237.49 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d3d49f0-e209-4153-a713-f44c9330a136")
-	)
-	(wire
-		(pts
 			(xy 176.53 71.12) (xy 184.15 71.12)
 		)
 		(stroke
@@ -6481,6 +6810,16 @@
 			(type default)
 		)
 		(uuid "6100f4f9-6d09-4ee3-946c-df2ad155d93e")
+	)
+	(wire
+		(pts
+			(xy 255.27 198.12) (xy 257.81 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626ff190-985b-42b9-bfc6-fae59b2954b1")
 	)
 	(wire
 		(pts
@@ -6604,6 +6943,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 238.76) (xy 270.51 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75923891-b876-483b-9b2d-e57b2e5a9554")
+	)
+	(wire
+		(pts
 			(xy 200.66 78.74) (xy 203.2 78.74)
 		)
 		(stroke
@@ -6621,6 +6970,16 @@
 			(type default)
 		)
 		(uuid "7892fccd-abf3-48b6-acc2-6ec091838f85")
+	)
+	(wire
+		(pts
+			(xy 257.81 203.2) (xy 261.62 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d9591e-9c62-49c3-9eec-d8f4c84941fe")
 	)
 	(wire
 		(pts
@@ -6674,13 +7033,33 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 250.19) (xy 237.49 250.19)
+			(xy 270.51 207.01) (xy 270.51 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8377f3bb-eea0-4370-8f64-546024a52671")
+		(uuid "845417d5-d621-4c33-9d9a-419cbaa418c7")
+	)
+	(wire
+		(pts
+			(xy 261.62 203.2) (xy 261.62 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c26669-0a86-4d04-9a4c-ac18e908caef")
+	)
+	(wire
+		(pts
+			(xy 261.62 248.92) (xy 261.62 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cbfb1f-0e70-4023-b27e-ba0d974a7dcb")
 	)
 	(wire
 		(pts
@@ -6721,6 +7100,16 @@
 			(type default)
 		)
 		(uuid "86d80205-d11e-4b2a-a21d-91d174ab9842")
+	)
+	(wire
+		(pts
+			(xy 261.62 248.92) (xy 261.62 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878121f5-2dfd-489f-8d0c-ab759ac5a278")
 	)
 	(wire
 		(pts
@@ -6844,6 +7233,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 259.08) (xy 245.11 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d331e3a-34e6-4ddc-abd6-7a516cd67543")
+	)
+	(wire
+		(pts
+			(xy 234.95 243.84) (xy 231.14 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea30ccb-e034-4c0b-952c-eda290d4a7cf")
+	)
+	(wire
+		(pts
 			(xy 194.31 76.2) (xy 194.31 77.47)
 		)
 		(stroke
@@ -6914,6 +7323,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 250.19) (xy 245.11 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9681880f-904b-48e5-9f02-ad5f931ee80d")
+	)
+	(wire
+		(pts
 			(xy 193.04 238.76) (xy 203.2 238.76)
 		)
 		(stroke
@@ -6921,6 +7340,16 @@
 			(type default)
 		)
 		(uuid "969ec58e-1e31-4c5c-af2c-0c40c89d9455")
+	)
+	(wire
+		(pts
+			(xy 261.62 213.36) (xy 245.11 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97de2bab-66c0-4e5c-9f4b-72afc55ab621")
 	)
 	(wire
 		(pts
@@ -6964,6 +7393,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 193.04) (xy 270.51 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c883cec-1b89-4aea-b7d7-8eea8798a01a")
+	)
+	(wire
+		(pts
 			(xy 290.83 44.45) (xy 298.45 44.45)
 		)
 		(stroke
@@ -6994,6 +7433,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 193.04) (xy 261.62 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23165eb-9661-4133-b4db-b8fffc76890d")
+	)
+	(wire
+		(pts
 			(xy 226.06 156.21) (xy 237.49 156.21)
 		)
 		(stroke
@@ -7011,16 +7460,6 @@
 			(type default)
 		)
 		(uuid "a2affa81-da3a-4862-873b-cf436a779c86")
-	)
-	(wire
-		(pts
-			(xy 237.49 238.76) (xy 246.38 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a38aa5dd-276f-482b-a79a-e3a6262260ee")
 	)
 	(wire
 		(pts
@@ -7044,6 +7483,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 193.04) (xy 234.95 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45532f4-9b5d-4fae-a158-274872071472")
+	)
+	(wire
+		(pts
 			(xy 143.51 234.95) (xy 160.02 234.95)
 		)
 		(stroke
@@ -7064,6 +7513,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 248.92) (xy 261.62 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51b0e1d-b014-46dc-8b2a-a34174000a1d")
+	)
+	(wire
+		(pts
 			(xy 339.09 85.09) (xy 334.01 85.09)
 		)
 		(stroke
@@ -7071,6 +7530,16 @@
 			(type default)
 		)
 		(uuid "a57f277e-b5b7-45f3-b98f-ee98d1844638")
+	)
+	(wire
+		(pts
+			(xy 270.51 238.76) (xy 275.59 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64b0da4-b5e6-4d8a-8a29-6da58bcafee1")
 	)
 	(wire
 		(pts
@@ -7214,6 +7683,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 198.12) (xy 234.95 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c23a8e-e4d7-456a-a0cc-abbff9728be1")
+	)
+	(wire
+		(pts
 			(xy 316.23 133.35) (xy 326.39 133.35)
 		)
 		(stroke
@@ -7241,6 +7720,16 @@
 			(type default)
 		)
 		(uuid "b8ce482a-ec49-42fd-9a5c-db3460a5ff11")
+	)
+	(wire
+		(pts
+			(xy 270.51 193.04) (xy 276.86 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf06533-b1a3-4aa3-9ec7-212a3c307c05")
 	)
 	(wire
 		(pts
@@ -7274,7 +7763,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 193.04) (xy 212.09 193.04)
+			(xy 208.28 193.04) (xy 222.25 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7314,16 +7803,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 193.04) (xy 248.92 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c21bbda6-c5e1-4b96-b215-e5fa646725b1")
-	)
-	(wire
-		(pts
 			(xy 175.26 129.54) (xy 167.64 129.54)
 		)
 		(stroke
@@ -7341,6 +7820,16 @@
 			(type default)
 		)
 		(uuid "c28a9156-3bae-4afb-8853-f092d2d3b6b5")
+	)
+	(wire
+		(pts
+			(xy 257.81 243.84) (xy 257.81 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2f8d918-e576-4db3-ad1e-d6021ed71af2")
 	)
 	(wire
 		(pts
@@ -7464,16 +7953,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 248.92) (xy 237.49 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce5f76e6-ce43-48fb-b76c-d855e4c4b744")
-	)
-	(wire
-		(pts
 			(xy 151.13 243.84) (xy 152.4 243.84)
 		)
 		(stroke
@@ -7584,6 +8063,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 203.2) (xy 261.62 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6b9d0a-4c43-4f3c-b3f7-27cc2c774e0f")
+	)
+	(wire
+		(pts
+			(xy 270.51 193.04) (xy 270.51 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9f666c-4d5c-4a9f-8f71-e451e49df750")
+	)
+	(wire
+		(pts
 			(xy 334.01 25.4) (xy 334.01 34.29)
 		)
 		(stroke
@@ -7591,6 +8090,16 @@
 			(type default)
 		)
 		(uuid "dc48d90f-62f6-4b87-9373-a0ecb9c99c8d")
+	)
+	(wire
+		(pts
+			(xy 245.11 213.36) (xy 245.11 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01da022-f506-4a9b-9359-d7c51976bab0")
 	)
 	(wire
 		(pts
@@ -7634,6 +8143,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 213.36) (xy 261.62 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47f7379-7aee-4be7-8b05-416ece9428b2")
+	)
+	(wire
+		(pts
 			(xy 97.79 24.13) (xy 134.62 24.13)
 		)
 		(stroke
@@ -7644,6 +8163,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 203.2) (xy 245.11 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50d9aa2-32ac-4313-a452-c18033334361")
+	)
+	(wire
+		(pts
 			(xy 200.66 127) (xy 226.06 127)
 		)
 		(stroke
@@ -7651,6 +8180,16 @@
 			(type default)
 		)
 		(uuid "e5c422cc-7bda-4c4f-92b1-df01a618abda")
+	)
+	(wire
+		(pts
+			(xy 270.51 252.73) (xy 270.51 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fe1161-2016-468e-8bd0-d1ef31cef4e1")
 	)
 	(wire
 		(pts
@@ -7711,6 +8250,16 @@
 			(type default)
 		)
 		(uuid "e9446d0c-05fa-4cbb-8960-9c2cd3121c31")
+	)
+	(wire
+		(pts
+			(xy 222.25 204.47) (xy 245.11 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1f5c3e-ae27-4f69-b867-e7641846b2cd")
 	)
 	(wire
 		(pts
@@ -7804,6 +8353,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 243.84) (xy 257.81 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4093dcc-8984-453d-b239-f91560e9d5b5")
+	)
+	(wire
+		(pts
 			(xy 152.4 247.65) (xy 151.13 247.65)
 		)
 		(stroke
@@ -7811,16 +8370,6 @@
 			(type default)
 		)
 		(uuid "f57f1b35-4e12-4b03-9a27-4bd8577c4f3b")
-	)
-	(wire
-		(pts
-			(xy 222.25 204.47) (xy 248.92 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5957b7f-2d07-4745-b092-517322331a9c")
 	)
 	(wire
 		(pts
@@ -7864,6 +8413,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 198.12) (xy 257.81 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7cc71cd-5e13-4aac-a88a-e9a4181758cb")
+	)
+	(wire
+		(pts
 			(xy 173.99 147.32) (xy 173.99 156.21)
 		)
 		(stroke
@@ -7904,6 +8463,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 250.19) (xy 245.11 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a486e5-e3cb-454c-8abd-e6843e67462e")
+	)
+	(wire
+		(pts
 			(xy 222.25 203.2) (xy 222.25 204.47)
 		)
 		(stroke
@@ -7924,6 +8493,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 238.76) (xy 270.51 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb25ab50-4158-4102-b7df-f2d08b108dfb")
+	)
+	(wire
+		(pts
 			(xy 163.83 71.12) (xy 168.91 71.12)
 		)
 		(stroke
@@ -7931,16 +8510,6 @@
 			(type default)
 		)
 		(uuid "fb4ad277-a463-40c2-b33c-3e08cb5a3a4d")
-	)
-	(wire
-		(pts
-			(xy 237.49 250.19) (xy 246.38 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc34d4ee-9336-431d-9004-32d8dc4da9b3")
 	)
 	(wire
 		(pts
@@ -7961,6 +8530,16 @@
 			(type default)
 		)
 		(uuid "fcf369b0-5a59-4226-ba4e-5c637f252427")
+	)
+	(wire
+		(pts
+			(xy 245.11 248.92) (xy 245.11 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8218f6-6306-484d-9353-5baa8c4b818b")
 	)
 	(wire
 		(pts
@@ -8052,17 +8631,7 @@
 		)
 		(uuid "5e1e57db-4fef-42a9-af0a-77e29811a3aa")
 	)
-	(label "12V_{HS}"
-		(at 248.92 193.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6058b061-b4a3-4f79-8c4c-19bbb6f3e839")
-	)
-	(label "12V_{LS}"
+	(label "12V_{LSRAW}"
 		(at 102.87 189.23 0)
 		(effects
 			(font
@@ -8070,7 +8639,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "61120141-7ca4-47ec-afab-7aa154bb6cca")
+		(uuid "64fcb510-ad99-4542-b351-7536f54b8214")
 	)
 	(label "PWM_{LS}"
 		(at 233.68 144.78 180)
@@ -8081,6 +8650,26 @@
 			(justify right bottom)
 		)
 		(uuid "766c2975-79e9-4a59-b4e3-a87748c2b7b2")
+	)
+	(label "12V_{LSRAW}"
+		(at 219.71 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77484431-7b4f-4267-a127-cba8187076ec")
+	)
+	(label "12V_{HS}"
+		(at 276.86 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7966d1dc-b633-4804-bf25-f525b6396f75")
 	)
 	(label "12V_{LS}"
 		(at 259.08 142.24 180)
@@ -8103,14 +8692,14 @@
 		(uuid "8d0fb65d-b6b8-4c39-b6c8-d241ff13a620")
 	)
 	(label "12V_{LS}"
-		(at 246.38 238.76 180)
+		(at 275.59 238.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a391020a-48f0-411e-b659-f27140bd6143")
+		(uuid "9d352f26-8505-4311-a424-414052a73ca2")
 	)
 	(label "K_{SWN}"
 		(at 200.66 60.96 180)
@@ -8123,7 +8712,7 @@
 		(uuid "a51096b9-b960-48e5-a742-0b2f3fe96a45")
 	)
 	(label "GND_{LS}"
-		(at 246.38 250.19 180)
+		(at 233.68 250.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8153,7 +8742,7 @@
 		(uuid "d2061c0c-116c-4315-9d83-c1a3d77fa336")
 	)
 	(label "K_{SWN}"
-		(at 248.92 204.47 180)
+		(at 237.49 204.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8747,7 +9336,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 189.23 222.25) (xy 275.59 222.25) (xy 275.59 175.26) (xy 189.23 175.26)
+				(xy 189.23 222.25) (xy 279.4 222.25) (xy 279.4 175.26) (xy 189.23 175.26)
 			)
 			(stroke
 				(width 0)
@@ -8768,7 +9357,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 189.23 273.05) (xy 275.59 273.05) (xy 275.59 224.79) (xy 189.23 224.79)
+				(xy 189.23 273.05) (xy 279.4 273.05) (xy 279.4 224.79) (xy 189.23 224.79)
 			)
 			(stroke
 				(width 0)
@@ -9508,6 +10097,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LT1761-SD")
+		(at 245.11 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03cd1f83-44df-43a0-8abc-07c5a695461c")
+		(property "Reference" "U801"
+			(at 245.11 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT1761-SD"
+			(at 245.11 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 245.11 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf"
+			(at 245.11 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MICROPOWER 100mA LDO adjustable regulator, TSOT-23-5"
+			(at 245.11 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5aa6634-77b6-4cdb-b5bf-375903c8f692")
+		)
+		(pin "3"
+			(uuid "286fbf83-c4e0-48dc-a2ce-acdf049edda6")
+		)
+		(pin "5"
+			(uuid "e78cac87-489f-4372-8f43-d8a9d48f9c58")
+		)
+		(pin "4"
+			(uuid "3ea395f4-b6da-4980-af10-991b5566ee0c")
+		)
+		(pin "2"
+			(uuid "1a392490-7ad6-4d18-91ee-89453ec9b28f")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "U801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 172.72 41.91 90)
 		(unit 1)
@@ -9794,6 +10472,132 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "#PWR0609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 243.84 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "153ae966-be28-4ef2-b43e-ea2e9beaff1f")
+		(property "Reference" "R612"
+			(at 263.398 242.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "51R"
+			(at 263.398 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 259.842 243.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\datasheet\\cr-1858361.pdf"
+			(at 261.62 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "CR0805-FX-51R0ELF "
+			(at 261.62 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "150V"
+			(at 264.16 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 266.7 237.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
+			(at 261.62 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "000a326d-2af8-4a5c-9285-09dee3328016")
+		)
+		(pin "2"
+			(uuid "8281140f-d9b6-4b49-934e-66a8683ac5a1")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "R612")
 					(unit 1)
 				)
 			)
@@ -11058,6 +11862,98 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "R605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 270.51 248.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "454cebae-9cb6-440b-8268-9f461d550676")
+		(property "Reference" "C718"
+			(at 273.558 247.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 273.558 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 271.4752 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 270.51 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
+			(at 270.51 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "df6f14ac-b421-407b-87cb-0fd8c56b8774")
+		)
+		(pin "1"
+			(uuid "cb97ede0-831f-4c12-b0cd-178f2551a646")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "C718")
 					(unit 1)
 				)
 			)
@@ -12502,7 +13398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+		(property "Footprint" "Footprints:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -13331,6 +14227,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 261.62 198.12 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "863dab66-1bd6-49ee-8756-763493bfe5e2")
+		(property "Reference" "R610"
+			(at 263.398 197.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "51R"
+			(at 263.398 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 259.842 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\datasheet\\cr-1858361.pdf"
+			(at 261.62 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "CR0805-FX-51R0ELF "
+			(at 261.62 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "150V"
+			(at 264.16 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 266.7 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
+			(at 261.62 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "404ea2b8-7ece-481f-9806-f46055006959")
+		)
+		(pin "2"
+			(uuid "bba3a70a-3982-44ce-9f11-d8a75e30546c")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "R610")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 201.93 0)
 		(mirror y)
@@ -13624,6 +14646,98 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "C605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 270.51 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c193c14-3eff-4ed1-a8d3-248a39676b97")
+		(property "Reference" "C719"
+			(at 273.558 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 273.558 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 271.4752 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 270.51 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
+			(at 270.51 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bd5bca85-55d4-47ca-b3d5-cc32e810ff19")
+		)
+		(pin "1"
+			(uuid "70f2a7f6-48af-4131-8f86-bf60a8bf96b6")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "C719")
 					(unit 1)
 				)
 			)
@@ -13934,6 +15048,132 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "R608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 254 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b8227a6-f6d8-4461-b56f-2b44b0c1a3de")
+		(property "Reference" "R613"
+			(at 263.398 252.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "51R"
+			(at 263.398 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 259.842 254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\datasheet\\cr-1858361.pdf"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "CR0805-FX-51R0ELF "
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "150V"
+			(at 264.16 247.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 266.7 247.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
+			(at 261.62 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48bc9934-7ae4-4724-8f60-d48d2cc05e3b")
+		)
+		(pin "2"
+			(uuid "20750818-f3ce-46cc-8986-1b1aa96f29f6")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "R613")
 					(unit 1)
 				)
 			)
@@ -14260,99 +15500,6 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "H801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.49 245.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1c88833-4289-468b-bcd9-72efe8c27883")
-		(property "Reference" "R710"
-			(at 240.03 243.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 240.03 246.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 235.712 245.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "fe3a7988c513396b31ef30fa37de5d1761be1b9feb37"
-			(at 237.49 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "74f3b015-ebf4-499e-9446-518eaa81637d")
-		)
-		(pin "1"
-			(uuid "d08a673b-e0e9-41d2-96b9-8fdbeec46781")
-		)
-		(instances
-			(project "InverterLeg"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "R710")
 					(unit 1)
 				)
 			)
@@ -14727,6 +15874,95 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "J803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LT1761-SD")
+		(at 245.11 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5d0253e-da6e-4ece-9930-c4b137465f3f")
+		(property "Reference" "U802"
+			(at 245.11 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT1761-SD"
+			(at 245.11 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
+			(at 245.11 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf"
+			(at 245.11 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MICROPOWER 100mA LDO adjustable regulator, TSOT-23-5"
+			(at 245.11 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7631b313-8529-4572-8605-5279faba16a0")
+		)
+		(pin "3"
+			(uuid "d64277cd-457c-4d64-87a1-04cab22de971")
+		)
+		(pin "5"
+			(uuid "f980d928-2fae-4f8e-83ec-6865ffe3006e")
+		)
+		(pin "4"
+			(uuid "11658907-78e9-41b2-bd71-a3aacf09562a")
+		)
+		(pin "2"
+			(uuid "a7b4823e-7b29-46cc-a65d-f8f94c90b354")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "U802")
 					(unit 1)
 				)
 			)
@@ -15162,6 +16398,132 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "C624")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 208.28 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e29cd323-d1f9-4fc6-be36-935751522f90")
+		(property "Reference" "R611"
+			(at 263.398 207.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "51R"
+			(at 263.398 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 259.842 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\datasheet\\cr-1858361.pdf"
+			(at 261.62 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manf#" "CR0805-FX-51R0ELF "
+			(at 261.62 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "150V"
+			(at 264.16 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 266.7 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
+			(at 261.62 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bba0be4-9264-4684-b126-9244714a9636")
+		)
+		(pin "2"
+			(uuid "3042341d-3b7b-40c6-8036-4ecf691f6eec")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "R611")
 					(unit 1)
 				)
 			)

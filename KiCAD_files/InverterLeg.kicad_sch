@@ -308,6 +308,228 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x01"
 			(pin_names
 				(offset 1.016)
@@ -5523,6 +5745,12 @@
 		(uuid "23ebfca2-fabe-4c65-9d1f-28e76ef23178")
 	)
 	(junction
+		(at 222.25 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "288e5e49-65ca-48f8-a431-212f55334ed9")
+	)
+	(junction
 		(at 250.19 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5569,12 +5797,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "486053d8-5946-49fc-b934-d6e8a207ca60")
-	)
-	(junction
-		(at 222.25 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49bf2052-dda2-4815-9919-e1b0ec93e12e")
 	)
 	(junction
 		(at 129.54 262.89)
@@ -6066,6 +6288,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 265.43) (xy 73.66 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7a882f-55d5-4921-bf71-f2b50f9af81a")
+	)
+	(wire
+		(pts
 			(xy 143.51 217.17) (xy 160.02 217.17)
 		)
 		(stroke
@@ -6196,7 +6428,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 138.43) (xy 63.5 138.43)
+			(xy 64.77 149.86) (xy 68.58 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6366,6 +6598,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 260.35) (xy 73.66 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252bf6a7-e36e-48c0-ba7b-19f5c5ba4176")
+	)
+	(wire
+		(pts
 			(xy 180.34 194.31) (xy 180.34 193.04)
 		)
 		(stroke
@@ -6386,7 +6628,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 140.97) (xy 58.42 160.02)
+			(xy 53.34 147.32) (xy 53.34 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7056,7 +7298,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 140.97) (xy 63.5 140.97)
+			(xy 53.34 147.32) (xy 68.58 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7176,7 +7418,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 133.35) (xy 80.01 133.35)
+			(xy 81.28 154.94) (xy 83.82 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7196,7 +7438,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 133.35) (xy 63.5 133.35)
+			(xy 64.77 154.94) (xy 68.58 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7306,7 +7548,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 135.89) (xy 63.5 135.89)
+			(xy 64.77 152.4) (xy 68.58 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7673,6 +7915,16 @@
 			(type default)
 		)
 		(uuid "9a5782d6-092f-4fcf-be91-5aa7a484fcb9")
+	)
+	(wire
+		(pts
+			(xy 68.58 262.89) (xy 73.66 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7fbaa3-5f79-4b93-ac6d-aa067803e8bc")
 	)
 	(wire
 		(pts
@@ -9107,7 +9359,7 @@
 	)
 	(hierarchical_label "PWMH_{MCU}"
 		(shape input)
-		(at 59.69 135.89 180)
+		(at 64.77 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9193,6 +9445,17 @@
 		)
 		(uuid "27b6c66b-83ac-47c5-aafc-3e80f132a58f")
 	)
+	(hierarchical_label "12V_{PGND}"
+		(shape input)
+		(at 68.58 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ef97970-fd54-4da4-9da5-54d08993658c")
+	)
 	(hierarchical_label "ADDR_LS"
 		(shape input)
 		(at 321.31 72.39 0)
@@ -9261,7 +9524,7 @@
 	)
 	(hierarchical_label "5V_{DGND}"
 		(shape input)
-		(at 59.69 133.35 180)
+		(at 64.77 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9313,6 +9576,17 @@
 			(justify right)
 		)
 		(uuid "71133bc0-4f32-469a-93c2-815e409008b2")
+	)
+	(hierarchical_label "SPEED"
+		(shape input)
+		(at 68.58 265.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7555db90-7ba3-4584-a707-36aa5dd74005")
 	)
 	(hierarchical_label "ALERT_LS"
 		(shape output)
@@ -9382,7 +9656,7 @@
 	)
 	(hierarchical_label "DIS"
 		(shape input)
-		(at 80.01 133.35 0)
+		(at 83.82 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9468,7 +9742,7 @@
 		)
 		(uuid "c00eea5f-be07-4a19-b08b-ee870655eec0")
 	)
-	(hierarchical_label "PGND"
+	(hierarchical_label "SPEED"
 		(shape input)
 		(at 83.82 252.73 0)
 		(effects
@@ -9503,7 +9777,7 @@
 	)
 	(hierarchical_label "PWML_{MCU}"
 		(shape input)
-		(at 59.69 138.43 180)
+		(at 64.77 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9533,6 +9807,17 @@
 			(justify left)
 		)
 		(uuid "f1179285-cdbb-4e72-979e-4412448046d4")
+	)
+	(hierarchical_label "PGND"
+		(shape input)
+		(at 68.58 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2f1efe0-1392-4e68-abe3-39b9cadedf38")
 	)
 	(hierarchical_label "PWMH_{MCU}"
 		(shape input)
@@ -10515,6 +10800,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C98119"
+			(at 245.11 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5aa6634-77b6-4cdb-b5bf-375903c8f692")
 		)
@@ -10990,7 +11286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SMD_L5.0-W5.0_CON1_5X5_SMD"
+		(property "Footprint" "Footprints:SMD-1_BD5.5-D4.0_H5"
 			(at 90.17 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11129,7 +11425,8 @@
 	)
 	(symbol
 		(lib_id "Symbols:DGND")
-		(at 58.42 160.02 0)
+		(at 53.34 166.37 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11139,7 +11436,7 @@
 		(dnp no)
 		(uuid "1c3ca378-d074-478d-9fa5-8e2022d67b92")
 		(property "Reference" "#PWR0714"
-			(at 58.42 166.37 0)
+			(at 53.34 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11150,7 +11447,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 58.42 163.83 0)
+			(at 53.34 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11160,7 +11457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 160.02 0)
+			(at 53.34 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11171,7 +11468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 160.02 0)
+			(at 53.34 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11182,7 +11479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 160.02 0)
+			(at 53.34 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11199,6 +11496,91 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "#PWR0714")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 78.74 262.89 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "1cc3c1ca-868a-4b6c-a07f-a2cf2ba450a7")
+		(property "Reference" "J804"
+			(at 78.105 257.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 77.47 264.1599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 78.74 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 78.74 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "78aeff17-320d-4d91-8453-7bcb70026d2d")
+		)
+		(pin "1"
+			(uuid "d37a350d-6bf4-4b32-851e-fb3591efb1d5")
+		)
+		(pin "3"
+			(uuid "5f59a201-b739-4eaa-bebf-2d606fa7fd14")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "J804")
 					(unit 1)
 				)
 			)
@@ -11926,6 +12308,105 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "#PWR0801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
+		(at 76.2 149.86 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32447cfd-b15f-4dbb-956e-664f7418a665")
+		(property "Reference" "J831"
+			(at 74.676 144.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Top_Bottom"
+			(at 74.93 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:HC-PBB02-2-08-M"
+			(at 76.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 76.2 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6bf5e6f2-8dc5-449e-bd1a-1d1b7f6b8ebb")
+		)
+		(pin "2"
+			(uuid "2dc17b77-7bfe-4e95-8f9a-90b670ecc5f3")
+		)
+		(pin "4"
+			(uuid "d61fb758-e3b4-466b-b9a6-9a96edd4c507")
+		)
+		(pin "1"
+			(uuid "61c544e1-96db-4137-81a7-2989cc8b4ac5")
+		)
+		(pin "8"
+			(uuid "33d3a180-06ec-4a6f-a45a-273fb1822993")
+		)
+		(pin "6"
+			(uuid "21714a66-9f55-467f-8418-065337a61677")
+		)
+		(pin "5"
+			(uuid "c6f7db0c-e5cf-46b4-b489-885c39076093")
+		)
+		(pin "7"
+			(uuid "f5fbc75b-7e95-42f0-adbb-b17e6e209c44")
+		)
+		(instances
+			(project "InverterLeg"
+				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
+					(reference "J831")
 					(unit 1)
 				)
 			)
@@ -13973,7 +14454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SMD_L5.0-W5.0_CON1_5X5_SMD"
+		(property "Footprint" "Footprints:SMD-1_BD5.5-D4.0_H5"
 			(at 262.89 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15767,6 +16248,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C54935091"
+			(at 299.72 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ec5e193-4b1e-49e7-9ca8-b038285292f5")
 		)
@@ -16423,6 +16915,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C54935091"
+			(at 299.72 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89001c2c-ad02-4203-8ddd-73009230929f")
 		)
@@ -16491,6 +16994,17 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 256.54 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C41432125"
 			(at 256.54 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16587,6 +17101,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C41432125"
+			(at 256.54 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d275f800-93f2-47e5-a867-b547134f1469")
 		)
@@ -16663,6 +17188,17 @@
 			)
 		)
 		(property "Description" "MICROPOWER 100mA LDO adjustable regulator, TSOT-23-5"
+			(at 245.11 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C98119"
 			(at 245.11 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -17979,7 +18515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SMD_L5.0-W5.0_CON1_5X5_SMD"
+		(property "Footprint" "Footprints:SMD-1_BD5.5-D4.0_H5"
 			(at 90.17 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18019,104 +18555,6 @@
 			(project "InverterLeg"
 				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
 					(reference "J811")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 68.58 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff7af19b-ed64-44f4-a2a8-4b12b8287166")
-		(property "Reference" "J831"
-			(at 70.104 130.302 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x02_Top_Bottom"
-			(at 69.85 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:HC-PBB02-2-08-M"
-			(at 68.58 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "32799aea-9a1d-4022-907d-cf1836a7f8de")
-		)
-		(pin "2"
-			(uuid "d3610a53-9688-45b6-be80-44ea485a0cf4")
-		)
-		(pin "4"
-			(uuid "dc1b2a01-ec98-40d9-8660-a7bbe38b5f7b")
-		)
-		(pin "1"
-			(uuid "dee0aa6c-91e1-4037-b9e1-65f54d9959d4")
-		)
-		(pin "8"
-			(uuid "bbee33c0-0c0d-448f-bfb3-b6dfd2aafa86")
-		)
-		(pin "6"
-			(uuid "5b6522ae-7365-4f49-a286-192257a2b118")
-		)
-		(pin "5"
-			(uuid "da760561-597a-4cc0-b47b-44fd121a4517")
-		)
-		(pin "7"
-			(uuid "2a688a49-1ecd-41b6-8f07-d5a20dc7e3b1")
-		)
-		(instances
-			(project "InverterLeg"
-				(path "/8d0c1d66-35ef-4a53-a28f-436a11b54f42"
-					(reference "J831")
 					(unit 1)
 				)
 			)

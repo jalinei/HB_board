@@ -1317,6 +1317,9 @@
       "/SDA_{PWR}": [
         "PGND"
       ],
+      "/SPEED": [
+        "PGND"
+      ],
       "/SWN": [
         "SWN"
       ],
@@ -2001,6 +2004,15 @@
       "unconnected-(J829-Pin_5-Pad5)": [
         "PGND"
       ],
+      "unconnected-(J831-Pin_1-Pad1)": [
+        "DGND"
+      ],
+      "unconnected-(J831-Pin_2-Pad2)": [
+        "DGND"
+      ],
+      "unconnected-(J831-Pin_3-Pad3)": [
+        "DGND"
+      ],
       "unconnected-(J831-Pin_5-Pad5)": [
         "DGND"
       ],
@@ -2498,7 +2510,7 @@
       "specctra_dsn": "",
       "step": "../../../3D_Models/Main_Module/Ownverter1_1_1.step",
       "svg": "",
-      "vrml": "../../../3D_Models/Main_Module/ownverter_v1-1-1.wrl"
+      "vrml": "../../PEBB/KiCAD_files/libs/footprints.pretty/footprints.3dshapes/HB_module.wrl"
     },
     "page_layout_descr_file": "Title_block.kicad_wks"
   },

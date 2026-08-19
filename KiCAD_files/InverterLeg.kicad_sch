@@ -14291,7 +14291,7 @@
 		(dnp no)
 		(uuid "77c29ebc-461c-4ab5-a809-041530ef6f03")
 		(property "Reference" "U603"
-			(at 175.768 119.888 0)
+			(at 179.578 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14300,7 +14300,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC21222DR"
+		(property "Value" ""
 			(at 179.324 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14333,28 +14333,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "manf#" "UCC21222DR"
-			(at 187.96 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "bccaf22d96de636e419712282ae246d314e74c1c3b4854d5"
 			(at 187.96 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -14739,7 +14717,7 @@
 				)
 			)
 		)
-		(property "Reserved1" "54ac28721298fbc865f2e5f34cb150e57d7a5c0d0331fcf6"
+		(property "Rotation Offset" "90"
 			(at 160.02 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -14750,7 +14728,7 @@
 				)
 			)
 		)
-		(property "Rotation Offset" "90"
+		(property "LCSC" "C5189123"
 			(at 160.02 246.38 0)
 			(hide yes)
 			(show_name no)

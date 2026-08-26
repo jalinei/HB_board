@@ -61,12 +61,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -96,7 +96,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "warning",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "warning",
@@ -1368,6 +1368,18 @@
       "Earth_Protective": [
         "PEarth"
       ],
+      "Earth_Protective1": [
+        "PEarth"
+      ],
+      "Earth_Protective2": [
+        "PEarth"
+      ],
+      "Earth_Protective3": [
+        "PEarth"
+      ],
+      "Earth_Protective4": [
+        "PEarth"
+      ],
       "GND_{LV}": [
         "PGND"
       ],
@@ -1981,6 +1993,9 @@
         "DGND"
       ],
       "PGND": [
+        "PGND"
+      ],
+      "PGND2": [
         "PGND"
       ],
       "VRef_DGND": [
@@ -2680,10 +2695,10 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Reserved1",
-          "name": "Reserved1",
-          "show": false
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -2752,7 +2767,7 @@
         "uuid": "8d0c1d66-35ef-4a53-a28f-436a11b54f42"
       }
     ],
-    "used_designators": "D508-509,D601-602,D703-714,D801-808,CBWF801-821,U205-210,U506,U603,U702,U704-727,U801-802,U804-838,C205-218,C414-415,C492-499,C527,C529-550,C602,C604-608,C612,C614-616,C624,C626,C703,C706,C708-711,C713,C717-721,C728-756,C801-811,C813,C817-821,C828-835,CSTAB801-815,L504-506,L702-709,L801-806,JP502,#PWR7-8,#PWR17-22,#PWR38-39,#PWR90-101,#PWR103-105,#PWR107-111,#PWR114,#PWR116-184,#PWR222-236,#PWR509,#PWR529,#PWR536,#PWR607,#PWR609-612,#PWR618-633,#PWR705-706,#PWR708,#PWR712-716,#PWR718-728,#PWR730-734,#PWR801-804,#PWR806,#PWR808,#PWR812-817,#PWR820-822,#PWR824-830,#PWR834-839,#PWR841,#PWR901-902,#PWR905,#PWR910-912,T502-503,T801-802,H801-804,TJ801-806,K801,J801-833,J901-902,Q601-605,Q801-802,N801,F202-205,F401,TR701-706,R202,R213-263,R505,R520-521,R523-528,R601-617,R710-719,R801-821,R824-859,RGF801-824,TP701,TP703-714,TP801-848",
+    "used_designators": "#FLG801-815,CSTAB801-815,F202-205,F401,C205-218,C414-415,C492-499,C527,C529-550,C602,C604-608,C612,C614-616,C624,C626,C703,C706,C708-711,C713,C717-721,C728-756,C801-811,C813,C817-821,C828-835,U205-210,U506,U603,U702,U704-727,U801-802,U804-838,K801,D508-509,D601-602,D703-714,D801-808,#PWR7-8,#PWR17-22,#PWR38-39,#PWR90-101,#PWR103-105,#PWR107-111,#PWR114,#PWR116-184,#PWR222-236,#PWR509,#PWR529,#PWR536,#PWR607,#PWR609-612,#PWR618-633,#PWR705-706,#PWR708,#PWR712-716,#PWR718-728,#PWR730-734,#PWR801-822,#PWR824-830,#PWR834-839,#PWR841,#PWR901-902,#PWR905,#PWR910-912,L504-506,L702-709,L801-806,H801-804,R202,R213-263,R505,R520-521,R523-528,R601-617,R710-719,R801-821,R824-859,JP502,T502-503,T801-802,CBWF801-821,TJ801-806,J801-833,J901-902,Q601-605,Q801-802,N801,TR701-706,RGF801-824,TP701,TP703-714,TP801-848",
     "variants": []
   },
   "sheets": [

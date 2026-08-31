@@ -6,7 +6,7 @@
 	(property "Reference" "U?"
 		(at 0 -2.327 0)
 		(layer "F.SilkS")
-		(uuid "3f9f43f4-296d-4aad-886d-0a4cd2ab277b")
+		(uuid "2c830ce7-7256-4bf7-8f36-c7882b8be059")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "CONN-TH_2LC000-739"
 		(at 0 2.327 0)
 		(layer "F.Fab")
-		(uuid "9b16bc4f-dd3e-41c4-9edb-37bea1ec7177")
+		(uuid "4e0489c2-dfdb-4102-8cd0-859c1777eec6")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "32addda6-8db6-4081-9c8b-d3dcff24c104")
+		(uuid "14915ecc-9f72-47fc-97e6-456a8002d8fb")
 		(effects
 			(font
 				(size 1 1)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "98b7a775-6782-4c15-a82f-a1df36034307")
+		(uuid "ba8ada94-7ea2-467b-a373-f2e3812b5ee2")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "62b809f2-c770-4683-a0f2-233ba0c39064")
+		(uuid "671b5717-7094-4d22-91cc-821609e279fe")
 	)
 	(fp_rect
 		(start -1.3 -1.3)
@@ -70,12 +70,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c3efba1d-391d-465b-bf19-be1a8884f69c")
+		(uuid "0a86c911-03ed-4a26-b308-e630826a0321")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "f8de1cdc-81ce-4edb-ba6a-b3748c6c2841")
+		(uuid "cc2a6587-bf8b-4385-b8f4-7744496f249c")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -85,10 +85,10 @@
 	)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 4 4)
+		(size 3.6 3.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 90)
-		(uuid "912a1e58-fe86-4331-b459-66e7b05c850f")
+		(uuid "e436a74b-7949-4884-b955-a38e1a5a3dfd")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/2LC000-739-Corps.step"

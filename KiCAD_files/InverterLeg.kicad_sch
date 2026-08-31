@@ -6264,7 +6264,7 @@
 	)
 	(text "TODO:\nref UCC pas la bonne (peut etre UCC21520ADWR)SOIC-16-300mil\nFINIR LCSC NUMBER"
 		(exclude_from_sim no)
-		(at 10.922 -5.08 0)
+		(at 10.922 -12.954 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -6340,6 +6340,27 @@
 			(justify left bottom)
 		)
 		(uuid "4ce67b54-da68-497e-9664-cab7f453e16f")
+	)
+	(text "DeltaV = Qg / C\nWith Qg = 51 nC and C = 10 µF :\nDeltaV = 0,0051 V per gate charge cycle"
+		(exclude_from_sim no)
+		(at 236.474 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52cb23f5-497e-4f75-a8d0-0d96c5bd981d")
+	)
+	(text "Average current for mos grid charging:\nI_average = Qg × Fsw\n\nAnd for the IPT60R055CM8 Qg = 51nC\nAt 100kHz -> I_average = 5,1mA\nAt 200kHz -> I_average = 10,2mA"
+		(exclude_from_sim no)
+		(at 194.818 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55aa77b9-7d07-4387-9de5-3b098afc436c")
 	)
 	(text "1:1.06"
 		(exclude_from_sim no)
@@ -7880,6 +7901,16 @@
 		)
 		(uuid "22127c1f-553b-4dc5-af7f-39e7e605664c")
 	)
+	(polyline
+		(pts
+			(xy 238.76 39.37) (xy 238.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ad901d-f9f1-4df4-b781-4e345f7bfbeb")
+	)
 	(wire
 		(pts
 			(xy 346.71 55.88) (xy 355.6 55.88)
@@ -8559,6 +8590,16 @@
 			(type default)
 		)
 		(uuid "5047f37b-9b25-4bd2-a80a-ae80a78d9776")
+	)
+	(polyline
+		(pts
+			(xy 246.38 27.94) (xy 246.38 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ae54c4-df3f-4bac-89b2-43f95fc6891f")
 	)
 	(wire
 		(pts
@@ -9329,6 +9370,16 @@
 			(type default)
 		)
 		(uuid "833e8141-28dc-4703-8a15-c93ed08af12c")
+	)
+	(polyline
+		(pts
+			(xy 246.38 33.02) (xy 238.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8357a5e9-2203-4ae6-9fa7-f81c8e687e89")
 	)
 	(wire
 		(pts
@@ -11039,6 +11090,16 @@
 			(type default)
 		)
 		(uuid "ee22e359-a5a9-458e-aca3-31f4883983ef")
+	)
+	(polyline
+		(pts
+			(xy 238.76 40.64) (xy 240.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08c6f13-bc6f-4874-9d74-af5902463f67")
 	)
 	(wire
 		(pts

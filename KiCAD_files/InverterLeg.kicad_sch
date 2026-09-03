@@ -4326,7 +4326,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ucc21520.pdf"
-				(at 0 0 0)
+				(at 7.62 -20.066 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4348,7 +4348,7 @@
 				)
 			)
 			(property "manf#" "UCC21222DR"
-				(at 0 0 0)
+				(at 0.508 -18.034 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5273,9 +5273,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 10.16 -5.08 180)
+					(at 12.7 -3.81 180)
 					(length 2.54)
-					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -5292,9 +5291,8 @@
 					)
 				)
 				(pin no_connect line
-					(at 10.16 0 180)
+					(at 12.7 -1.27 180)
 					(length 2.54)
-					(hide yes)
 					(name "NC"
 						(effects
 							(font
@@ -5406,7 +5404,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C5189123.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=RFVaBlFTQFVdUFxfRFkIX1YFEVBfUQVWQlBXBFRTT1IxVlNeQFZaUlJTRllaUTsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
+			(property "Datasheet" "${KIPRJMOD}/datasheet/C5189123_VPS8701B.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6888,12 +6886,6 @@
 		(uuid "60f89093-3ab5-4d01-ad91-e42dae2db685")
 	)
 	(junction
-		(at 259.08 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61f6932d-60e1-4987-8a28-52f609756d1e")
-	)
-	(junction
 		(at 284.48 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6990,12 +6982,6 @@
 		(uuid "987549b8-22fc-4307-9dbf-b74fc4903671")
 	)
 	(junction
-		(at 259.08 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c25bbbc-34f1-4d76-a1ed-7d44038557a5")
-	)
-	(junction
 		(at 116.84 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7078,6 +7064,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adf4059f-982d-40cd-8cac-3ab5edbfc557")
+	)
+	(junction
+		(at 259.08 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae3125d0-5807-459d-a4d9-0427a1859988")
 	)
 	(junction
 		(at 194.31 104.14)
@@ -7254,6 +7246,12 @@
 		(uuid "f541769a-ea10-48ae-99bb-0b49d9633784")
 	)
 	(junction
+		(at 259.08 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5cf48fe-ac42-4074-a698-fefce4800671")
+	)
+	(junction
 		(at 274.32 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7341,7 +7339,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 200.66) (xy 259.08 207.01)
+			(xy 259.08 200.66) (xy 259.08 204.47)
 		)
 		(stroke
 			(width 0)
@@ -10631,7 +10629,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 172.72) (xy 261.62 172.72)
+			(xy 260.35 171.45) (xy 261.62 171.45)
 		)
 		(stroke
 			(width 0)
@@ -10821,7 +10819,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 212.09) (xy 259.08 213.36)
+			(xy 259.08 209.55) (xy 259.08 213.36)
 		)
 		(stroke
 			(width 0)
@@ -10851,7 +10849,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 195.58) (xy 261.62 195.58)
+			(xy 260.35 194.31) (xy 261.62 194.31)
 		)
 		(stroke
 			(width 0)
@@ -10951,7 +10949,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 172.72) (xy 260.35 175.26)
+			(xy 260.35 171.45) (xy 260.35 175.26)
 		)
 		(stroke
 			(width 0)
@@ -11251,7 +11249,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 195.58) (xy 260.35 198.12)
+			(xy 260.35 194.31) (xy 260.35 198.12)
 		)
 		(stroke
 			(width 0)
@@ -11846,7 +11844,8 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 189.23 227.33) (xy 275.59 227.33) (xy 275.59 194.31) (xy 189.23 194.31)
+				(xy 189.23 227.33) (xy 275.59 227.33) (xy 275.463 193.294) (xy 248.158 193.294) (xy 248.158 195.072)
+				(xy 189.23 195.072)
 			)
 			(stroke
 				(width 0)
@@ -11910,7 +11909,8 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 189.23 191.77) (xy 275.59 191.77) (xy 275.59 157.48) (xy 189.23 157.48)
+				(xy 189.23 189.738) (xy 248.158 189.738) (xy 248.158 191.516) (xy 275.59 191.516) (xy 275.59 157.48)
+				(xy 189.23 157.48)
 			)
 			(stroke
 				(width 0)
@@ -12354,17 +12354,17 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 269.24 191.77 0)
+		(at 266.7 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f161a6ba-4b73-4d72-a9e7-8b9fe27cc9fc")
 		(property "Netclass" "SWN"
-			(at 269.8496 189.23 0)
+			(at 267.3096 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12375,7 +12375,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 2.54 62.23 0)
+			(at 0 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12614,7 +12614,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp117.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_TMP117xxDRV.pdf"
 			(at 309.88 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12742,7 +12742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_LT1761-SD.pdf"
 			(at 372.11 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12965,7 +12965,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-2W6ENT.pdf"
 			(at 147.32 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13605,7 +13605,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_Screw_Terminal_01x01.pdf"
 			(at 90.17 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13705,7 +13705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
 			(at 334.01 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -14016,7 +14016,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 261.62 195.58 270)
+		(at 261.62 194.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14026,7 +14026,7 @@
 		(dnp no)
 		(uuid "23015e20-5e94-4ada-93ea-31c72f459cc2")
 		(property "Reference" "TP812"
-			(at 266.446 195.58 90)
+			(at 266.446 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14037,7 +14037,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 263.6521 198.12 0)
+			(at 263.6521 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14048,7 +14048,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:TestPoint_Pad_D1.0mm_small_courtyard"
-			(at 261.62 200.66 0)
+			(at 261.62 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14059,7 +14059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 200.66 0)
+			(at 261.62 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14070,7 +14070,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 261.62 195.58 0)
+			(at 261.62 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14081,7 +14081,7 @@
 			)
 		)
 		(property "Position Offset" ""
-			(at 261.62 195.58 90)
+			(at 261.62 194.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14453,7 +14453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
 			(at 165.1 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -14711,7 +14711,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt60r055cm8-datasheet-en.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_Infineon_PG-HSOF-8-2.pdf"
 			(at 208.28 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15304,7 +15304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C41421136.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=RFVaBlFTQFVdUFxfRFkIX1YFEVBfUQVWQlBXBFRTT1IxVlNeQFdZV1VXTlhbVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H4.0-G1-R-P-04.pdf"
 			(at 62.23 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15746,7 +15746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-ipt60r055cm8-datasheet-en.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_Infineon_PG-HSOF-8-2.pdf"
 			(at 208.28 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16654,7 +16654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C41421136.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=RFVaBlFTQFVdUFxfRFkIX1YFEVBfUQVWQlBXBFRTT1IxVlNeQFdZV1VXTlhbVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H4.0-G1-R-P-04.pdf"
 			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17628,7 +17628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
 			(at 165.1 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -17730,7 +17730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}\\datasheet\\PMEG2010AEJ-2938779.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
 			(at 187.96 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -18212,7 +18212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_10uH.pdf"
 			(at 265.43 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18316,7 +18316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5189123.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=RFVaBlFTQFVdUFxfRFkIX1YFEVBfUQVWQlBXBFRTT1IxVlNeQFZaUlJTRllaUTsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5189123_VPS8701B.pdf"
 			(at 297.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18440,7 +18440,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C601651_UCC21520.pdf"
 			(at 187.96 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -18650,7 +18650,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_Screw_Terminal_01x01.pdf"
 			(at 262.89 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -18863,7 +18863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/Q-Bridge-Thermal-Conductor.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP_1206_3216Metric.pdf"
 			(at 276.86 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -18967,7 +18967,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5189123.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=RFVaBlFTQFVdUFxfRFkIX1YFEVBfUQVWQlBXBFRTT1IxVlNeQFZaUlJTRllaUTsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5189123_VPS8701B.pdf"
 			(at 124.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -19169,7 +19169,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C41421136.pdf?spm=wm.fly.bg.0.pdf&lcsc_vid=RFVaBlFTQFVdUFxfRFkIX1YFEVBfUQVWQlBXBFRTT1IxVlNeQFdZV1VXTlhbVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4dAgUUFAk%3D"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H4.0-G1-R-P-04.pdf"
 			(at 367.03 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -19837,7 +19837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/Q-Bridge-Thermal-Conductor.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP_1206_3216Metric.pdf"
 			(at 276.86 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -20592,7 +20592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
 			(at 334.01 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -21244,7 +21244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-2W6ENT.pdf"
 			(at 316.23 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -21358,7 +21358,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_CONN-TH_2LC000-739.pdf"
 			(at 71.12 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -22542,7 +22542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_CONN-TH_2LC000-739.pdf"
 			(at 88.9 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -22677,7 +22677,7 @@
 	)
 	(symbol
 		(lib_id "Symbols:Conn_Coaxial_Small")
-		(at 259.08 209.55 90)
+		(at 259.08 207.01 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -22688,7 +22688,7 @@
 		(dnp no)
 		(uuid "c26493fc-6722-46a3-a504-3adc173ddaca")
 		(property "Reference" "J802"
-			(at 263.398 209.55 90)
+			(at 263.398 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22698,7 +22698,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_Small"
-			(at 255.27 209.0304 0)
+			(at 255.27 206.4904 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22709,7 +22709,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:IPEX-SMD_4P-L1.7-W1.7-LS2.0-L-4"
-			(at 259.08 209.55 0)
+			(at 259.08 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22719,8 +22719,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 259.08 209.55 0)
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_Conn_Coaxial_Small.pdf"
+			(at 259.08 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22731,7 +22731,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 259.08 209.55 0)
+			(at 259.08 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22742,7 +22742,7 @@
 			)
 		)
 		(property "LCSC" "C41432125"
-			(at 259.08 209.55 0)
+			(at 259.08 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22753,7 +22753,7 @@
 			)
 		)
 		(property "Position Offset" ""
-			(at 259.08 209.55 90)
+			(at 259.08 207.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22904,7 +22904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_Conn_Coaxial_Small.pdf"
 			(at 259.08 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -23011,7 +23011,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1761sff.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_LT1761-SD.pdf"
 			(at 209.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -24233,7 +24233,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_10uH.pdf"
 			(at 87.63 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -24717,7 +24717,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 261.62 172.72 270)
+		(at 261.62 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24727,7 +24727,7 @@
 		(dnp no)
 		(uuid "ec81d488-2f59-4305-a503-a407dabd70d5")
 		(property "Reference" "TP810"
-			(at 266.446 172.72 90)
+			(at 266.446 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24738,7 +24738,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 263.6521 175.26 0)
+			(at 263.6521 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24749,7 +24749,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:TestPoint_Pad_D1.0mm_small_courtyard"
-			(at 261.62 177.8 0)
+			(at 261.62 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24760,7 +24760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 177.8 0)
+			(at 261.62 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24771,7 +24771,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 261.62 172.72 0)
+			(at 261.62 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24782,7 +24782,7 @@
 			)
 		)
 		(property "Position Offset" ""
-			(at 261.62 172.72 90)
+			(at 261.62 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25295,7 +25295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}\\datasheet\\PMEG2010AEJ-2938779.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
 			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
@@ -25398,7 +25398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmp117.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_TMP117xxDRV.pdf"
 			(at 309.88 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -25694,7 +25694,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_Screw_Terminal_01x01.pdf"
 			(at 90.17 80.01 0)
 			(hide yes)
 			(show_name no)

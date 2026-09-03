@@ -26,3 +26,16 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
+
+# History
+.history/
+.history/*
+
+# lock files
+*.lck
+
+# manufacturing_files
+*Manufacturing_Files/
+*Manufacturing_Files/*
+production/
+production/*

@@ -6622,7 +6622,7 @@
 		)
 		(uuid "80d81807-be39-4315-bd84-a2e1dd12e657")
 	)
-	(text "V_{OUT} = VADJ (1 + (R612/R613)) + (I_{ADJ} * R612)\nV_{ADJ} = 1.22V\nI_{ADJ} = 30nA at 25°C\nSo:\nV_{OUT} = @{round((1.22*(1+(${/8d0c1d66-35ef-4a53-a28f-436a11b54f42/153ae966-be28-4ef2-b43e-ea2e9beaff1f:Value}/${/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9b8227a6-f6d8-4461-b56f-2b44b0c1a3de:Value}))+(0.00000003*${/8d0c1d66-35ef-4a53-a28f-436a11b54f42/153ae966-be28-4ef2-b43e-ea2e9beaff1f:Value}))*100)/100}V\n"
+	(text "V_{OUT} = 0.6 x (1 + (R612/R613))\nV_{OUT} = @{round(0.6*(1+510000/27000),2)}V\n"
 		(exclude_from_sim no)
 		(at 202.692 62.992 0)
 		(effects
@@ -12897,17 +12897,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 237.49 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 237.49 181.61 0)
 			(hide yes)
@@ -12967,7 +12956,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TMP117xxDRV"
+		(property "Value" "TMP117B"
 			(at 306.7218 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13239,17 +13228,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "e83d0d2e640bd473b48d7e0284fc3bc7586bd6985cc2"
 			(at 172.72 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13766,7 +13744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "178k"
+		(property "Value" "510k"
 			(at 227.838 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14545,17 +14523,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "269e10abb8e08bedf6fe59138f738c816916bbb2d9"
-			(at 111.76 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 111.76 204.47 0)
 			(hide yes)
@@ -14649,17 +14616,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
 			(at 237.49 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -15174,7 +15130,7 @@
 		(dnp no)
 		(uuid "2cfc0498-d9b7-4c5e-8979-ddacc2cbda00")
 		(property "Reference" "C607"
-			(at 161.544 204.724 0)
+			(at 162.814 204.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15184,8 +15140,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 161.544 207.264 0)
+		(property "Value" "1nF"
+			(at 162.814 206.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15228,17 +15184,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 168.91 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 168.91 205.74 0)
 			(hide yes)
@@ -15250,7 +15195,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1588"
 			(at 168.91 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15422,17 +15367,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
 			(at 80.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16518,17 +16452,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
-			(at 102.87 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 102.87 190.5 90)
 			(hide yes)
@@ -16810,17 +16733,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 234.95 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 234.95 44.45 0)
 			(hide yes)
@@ -17005,17 +16917,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
 			(at 189.23 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -17518,17 +17419,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 167.64 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 167.64 180.34 90)
 			(hide yes)
@@ -17623,17 +17513,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 284.48 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
 			(at 284.48 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17978,17 +17857,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "b7f0312652245873b572e2e89e4b51494f4dce2bf518"
 			(at 172.72 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -18461,17 +18329,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "269e10abb8e08bedf6fe59138f738c816916bbb2d9"
-			(at 116.84 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 116.84 204.47 0)
 			(hide yes)
@@ -18563,17 +18420,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "b7f0312652245873b572e2e89e4b51494f4dce2bf518"
 			(at 172.72 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -19225,17 +19071,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 355.6 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 355.6 35.56 0)
 			(hide yes)
@@ -19765,17 +19600,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
-			(at 102.87 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 102.87 193.04 90)
 			(hide yes)
@@ -19880,17 +19704,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "6ef4274804797e6557917bb79bd82a607ad050021f56b2"
-			(at 250.19 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 250.19 207.01 0)
 			(hide yes)
@@ -19951,7 +19764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "178k"
+		(property "Value" "510k"
 			(at 390.398 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19985,17 +19798,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 388.62 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
 			(at 388.62 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -20100,17 +19902,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
 			(at 257.81 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20415,17 +20206,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 167.64 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 167.64 184.15 90)
 			(hide yes)
@@ -20596,17 +20376,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 397.51 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
 			(at 397.51 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20788,17 +20557,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
 			(at 107.95 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -21169,17 +20927,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "587483f3fd3ad8d455ca46df31bb2751f8d4cf649ee8"
-			(at 194.31 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 194.31 137.16 0)
 			(hide yes)
@@ -21483,7 +21230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "27k"
 			(at 227.838 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22662,17 +22409,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
-			(at 317.5 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 317.5 120.65 0)
 			(hide yes)
@@ -22966,17 +22702,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "587483f3fd3ad8d455ca46df31bb2751f8d4cf649ee8"
-			(at 194.31 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 194.31 109.22 0)
 			(hide yes)
@@ -23036,7 +22761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 131.064 205.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23080,17 +22805,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 138.43 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 138.43 204.47 0)
 			(hide yes)
@@ -23102,7 +22816,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1588"
 			(at 138.43 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -23851,17 +23565,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
-			(at 317.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C14663"
 			(at 317.5 81.28 0)
 			(hide yes)
@@ -24129,17 +23832,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "e83d0d2e640bd473b48d7e0284fc3bc7586bd6985cc2"
-			(at 172.72 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 172.72 127 90)
 			(hide yes)
@@ -24321,17 +24013,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 93.98 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 93.98 43.18 0)
 			(hide yes)
@@ -24426,17 +24107,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 134.62 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "0db098cf967df37918c59b0e08ade59c874a0accb68a991e"
 			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -24584,7 +24254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "27k"
 			(at 390.398 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25142,17 +24812,6 @@
 				)
 			)
 		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 271.78 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Position Offset" ""
 			(at 271.78 41.91 0)
 			(hide yes)
@@ -25400,17 +25059,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 345.44 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
 			(at 345.44 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -25681,17 +25329,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "0db098cf967df37918c59b0e08ade59c874a0accb68a991e"
 			(at 146.05 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -26119,7 +25756,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TMP117xxDRV"
+		(property "Value" "TMP117B"
 			(at 306.7218 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)

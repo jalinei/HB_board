@@ -12886,7 +12886,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 237.49 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12956,7 +12956,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TMP117B"
+		(property "Value" "T117B"
 			(at 306.7218 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12978,7 +12978,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_TMP117xxDRV.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_T117B.pdf"
 			(at 309.88 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12989,7 +12989,7 @@
 				)
 			)
 		)
-		(property "Description" "Digital Temperature Sensor with I2C/SMBus Interface, 16 bits, ±0.3°C, one-shot conversion, alert, nist traceable, EEPROM, WSON"
+		(property "Description" "16-bit I2C digital temperature sensor, +/-0.5 deg C, -103 deg C to +153 deg C, DFN-6L 2 mm x 2 mm"
 			(at 309.88 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -13085,7 +13085,7 @@
 				)
 			)
 		)
-		(property "Value" "LT1761-SD"
+		(property "Value" "SY6345AAC"
 			(at 372.11 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13106,7 +13106,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_LT1761-SD.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_SY6345AAC.pdf"
 			(at 372.11 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13117,7 +13117,7 @@
 				)
 			)
 		)
-		(property "Description" "MICROPOWER 100mA LDO adjustable regulator, TSOT-23-5"
+		(property "Description" "40 V, 300 mA adjustable low-quiescent-current LDO regulator, SOT-23-5"
 			(at 372.11 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13227,7 +13227,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF100KT5E"
 			(at 172.72 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13296,7 +13296,7 @@
 				)
 			)
 		)
-		(property "Value" "TE1212-2W6ENT"
+		(property "Value" "TE1212-1W6ENT"
 			(at 144.526 30.988 0)
 			(hide yes)
 			(show_name no)
@@ -13318,7 +13318,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-2W6ENT.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-1W6ENT.pdf"
 			(at 147.32 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13329,7 +13329,7 @@
 				)
 			)
 		)
-		(property "Description" "High Frequency Wire Wound Transformers EP13 Platform"
+		(property "Description" "12 V to 12 V, 1 W DC-DC isolation transformer, 1:1.06 turns ratio, 3 kV isolation"
 			(at 152.654 29.972 0)
 			(hide yes)
 			(show_name no)
@@ -13744,7 +13744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "178k"
 			(at 227.838 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13777,7 +13777,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "178 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
 			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13936,7 +13936,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x01"
+		(property "Value" "SMTSO3050CTJ"
 			(at 76.708 149.352 0)
 			(hide yes)
 			(show_name no)
@@ -13958,7 +13958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_Screw_Terminal_01x01.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_SMTSO3050CTJ.pdf"
 			(at 90.17 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13969,7 +13969,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Tin-plated PCB surface-mount round threaded standoff, M3 x 5 mm"
 			(at 90.17 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -14036,7 +14036,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 327.406 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14058,7 +14058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 334.01 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -14069,7 +14069,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 334.01 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14512,7 +14512,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 pF +/-5%, 50 V C0G ceramic capacitor, 0603; Samsung CL10C200JB8NNNC"
 			(at 111.76 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -14615,7 +14615,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 237.49 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -14762,7 +14762,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 159.512 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14784,7 +14784,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 165.1 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -14795,7 +14795,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 165.1 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15020,7 +15020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "AGM15T05LL"
 			(at 214.63 105.6766 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15042,7 +15042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_Infineon_PG-HSOF-8-2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_AGM15T05LL.pdf"
 			(at 208.28 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15053,7 +15053,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "150 V, 180 A N-channel MOSFET with 5 mOhm RDS(on), TOLL-8L"
 			(at 212.344 110.998 0)
 			(hide yes)
 			(show_name no)
@@ -15173,7 +15173,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 nF +/-10%, 50 V X7R ceramic capacitor, 0603; Samsung CL10B102KB8NNNC"
 			(at 168.91 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15366,7 +15366,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 80.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15591,7 +15591,7 @@
 				)
 			)
 		)
-		(property "Value" "HC-PBB08-2-08-M-H4.0-G1-R-P-04"
+		(property "Value" "HC-PBB08-2-08-M-H1.0-G1-R-P-04"
 			(at 63.5 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -15613,7 +15613,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H4.0-G1-R-P-04.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H1.0-G1-R-P-04.pdf"
 			(at 62.23 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15624,7 +15624,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "8-position, dual-row, 0.8 mm-pitch vertical SMD board-to-board plug, 1.0 mm body height"
 			(at 62.23 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16110,7 +16110,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "AGM15T05LL"
 			(at 214.63 133.6166 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16132,7 +16132,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_Infineon_PG-HSOF-8-2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_AGM15T05LL.pdf"
 			(at 208.28 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16143,7 +16143,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "150 V, 180 A N-channel MOSFET with 5 mOhm RDS(on), TOLL-8L"
 			(at 212.344 138.938 0)
 			(hide yes)
 			(show_name no)
@@ -16441,7 +16441,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "51 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF510JT5E"
 			(at 102.87 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -16722,7 +16722,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 234.95 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -16916,7 +16916,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 189.23 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -16985,7 +16985,7 @@
 				)
 			)
 		)
-		(property "Value" "HC-PBB08-2-08-M-H4.0-G1-R-P-04"
+		(property "Value" "HC-PBB08-2-08-M-H1.0-G1-R-P-04"
 			(at 52.07 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -17007,7 +17007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H4.0-G1-R-P-04.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H1.0-G1-R-P-04.pdf"
 			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17018,7 +17018,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "8-position, dual-row, 0.8 mm-pitch vertical SMD board-to-board plug, 1.0 mm body height"
 			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17216,7 +17216,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
 			(at 160.02 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -17408,7 +17408,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 167.64 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17512,7 +17512,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 284.48 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17856,7 +17856,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF100KT5E"
 			(at 172.72 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17926,7 +17926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 169.418 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17948,7 +17948,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 165.1 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -17959,7 +17959,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18028,7 +18028,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 190.5 95.758 0)
 			(hide yes)
 			(show_name no)
@@ -18050,7 +18050,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 187.96 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -18061,7 +18061,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 187.96 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -18318,7 +18318,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 pF +/-5%, 50 V C0G ceramic capacitor, 0603; Samsung CL10C200JB8NNNC"
 			(at 116.84 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -18419,7 +18419,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF100KT5E"
 			(at 172.72 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -18510,7 +18510,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_10uH.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_MLZ2012M100WT000.pdf"
 			(at 265.43 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18521,7 +18521,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "10 uH +/-20% multilayer ferrite inductor, 470 mOhm DCR, 150 mA saturation current, 0805; TDK MLZ2012M100WT000"
 			(at 265.43 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18625,7 +18625,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 V to 30 V full-bridge transformer driver for low-power isolated supplies, SOT-23-6"
 			(at 297.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18717,7 +18717,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC21520"
+		(property "Value" "UCC21520DWR"
 			(at 181.864 178.562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18738,7 +18738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C601651_UCC21520.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C601651_UCC21520DWR.pdf"
 			(at 187.96 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -18749,7 +18749,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.7 kVrms isolated dual-channel gate driver, 4 A source and 6 A sink, wide-body SOIC-16"
 			(at 187.96 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -18926,7 +18926,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x01"
+		(property "Value" "SMTSO3050CTJ"
 			(at 276.352 118.872 0)
 			(hide yes)
 			(show_name no)
@@ -18948,7 +18948,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_Screw_Terminal_01x01.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_SMTSO3050CTJ.pdf"
 			(at 262.89 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -18959,7 +18959,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Tin-plated PCB surface-mount round threaded standoff, M3 x 5 mm"
 			(at 262.89 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -19060,7 +19060,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 355.6 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -19129,7 +19129,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "THJP1206AST1"
 			(at 276.86 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19150,7 +19150,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP_1206_3216Metric.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP1206AST1.pdf"
 			(at 276.86 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -19161,7 +19161,7 @@
 				)
 			)
 		)
-		(property "Description" "Thermal Bridge/Jumper"
+		(property "Description" "Electrically isolated aluminum nitride thermal jumper, 1206 surface-mount package"
 			(at 276.86 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -19265,7 +19265,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 V to 30 V full-bridge transformer driver for low-power isolated supplies, SOT-23-6"
 			(at 124.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -19434,7 +19434,7 @@
 				)
 			)
 		)
-		(property "Value" "HC-PBB08-2-08-M-H4.0-G1-R-P-04"
+		(property "Value" "HC-PBB08-2-08-M-H1.0-G1-R-P-04"
 			(at 361.95 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19456,7 +19456,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H4.0-G1-R-P-04.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H1.0-G1-R-P-04.pdf"
 			(at 360.68 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -19467,7 +19467,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "8-position, dual-row, 0.8 mm-pitch vertical SMD board-to-board plug, 1.0 mm body height"
 			(at 360.68 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -19589,7 +19589,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "51 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF510JT5E"
 			(at 102.87 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -19693,7 +19693,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 250.19 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -19764,7 +19764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "178k"
 			(at 390.398 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19797,7 +19797,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "178 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
 			(at 388.62 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19901,7 +19901,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 257.81 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20059,7 +20059,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "THJP1206AST1"
 			(at 276.86 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20080,7 +20080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP_1206_3216Metric.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP1206AST1.pdf"
 			(at 276.86 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -20091,7 +20091,7 @@
 				)
 			)
 		)
-		(property "Description" "Thermal Bridge/Jumper"
+		(property "Description" "Electrically isolated aluminum nitride thermal jumper, 1206 surface-mount package"
 			(at 276.86 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -20195,7 +20195,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 167.64 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -20375,7 +20375,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 397.51 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20556,7 +20556,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 107.95 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20780,7 +20780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 336.804 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20802,7 +20802,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 334.01 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -20813,7 +20813,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 334.01 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -20916,7 +20916,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1002TCE"
 			(at 194.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -21230,7 +21230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "20k"
 			(at 227.838 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21263,7 +21263,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
 			(at 226.06 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -21421,7 +21421,7 @@
 				)
 			)
 		)
-		(property "Value" "TE1212-2W6ENT"
+		(property "Value" "TE1212-1W6ENT"
 			(at 314.452 28.956 0)
 			(hide yes)
 			(show_name no)
@@ -21443,7 +21443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-2W6ENT.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-1W6ENT.pdf"
 			(at 316.23 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -21454,7 +21454,7 @@
 				)
 			)
 		)
-		(property "Description" "High Frequency Wire Wound Transformers EP13 Platform"
+		(property "Description" "12 V to 12 V, 1 W DC-DC isolation transformer, 1:1.06 turns ratio, 3 kV isolation"
 			(at 321.564 28.702 0)
 			(hide yes)
 			(show_name no)
@@ -21535,7 +21535,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "2LC000-739"
 			(at 71.755 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -21557,7 +21557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_CONN-TH_2LC000-739.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_2LC000-739.pdf"
 			(at 71.12 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -21568,7 +21568,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Through-hole heavy-duty connector contact with M3 thread"
 			(at 71.12 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -22398,7 +22398,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 317.5 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -22558,7 +22558,7 @@
 				)
 			)
 		)
-		(property "Value" "24CS02"
+		(property "Value" "24C02S(XBLW)"
 			(at 383.54 130.4963 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22579,7 +22579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C18723540_24CS02.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C18723540_24C02S_XBLW.pdf"
 			(at 372.618 118.872 0)
 			(hide yes)
 			(show_name no)
@@ -22590,7 +22590,7 @@
 				)
 			)
 		)
-		(property "Description" "I2C Serial EEPROM, 2Kb (128x8) with Unique Serial Number,"
+		(property "Description" "2 Kbit I2C serial EEPROM, 1.8 V to 5.5 V, 1 MHz, SOT-23-5"
 			(at 370.84 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -22691,7 +22691,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1002TCE"
 			(at 194.31 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22794,7 +22794,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 nF +/-10%, 50 V X7R ceramic capacitor, 0603; Samsung CL10B102KB8NNNC"
 			(at 138.43 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -22863,7 +22863,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "2LC000-739"
 			(at 89.535 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -22885,7 +22885,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_CONN-TH_2LC000-739.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_2LC000-739.pdf"
 			(at 88.9 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -22896,7 +22896,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Through-hole heavy-duty connector contact with M3 thread"
 			(at 88.9 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -23040,7 +23040,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Coaxial_Small"
+		(property "Value" "AIPEX-4"
 			(at 255.27 206.4904 0)
 			(hide yes)
 			(show_name no)
@@ -23062,7 +23062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_Conn_Coaxial_Small.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_AIPEX-4.pdf"
 			(at 259.08 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -23073,7 +23073,7 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "50 ohm I-PEX-compatible male-pin RF receptacle, surface mount, up to 6 GHz"
 			(at 259.08 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -23225,7 +23225,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Coaxial_Small"
+		(property "Value" "AIPEX-4"
 			(at 262.89 183.6304 0)
 			(hide yes)
 			(show_name no)
@@ -23247,7 +23247,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_Conn_Coaxial_Small.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_AIPEX-4.pdf"
 			(at 259.08 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -23258,7 +23258,7 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "50 ohm I-PEX-compatible male-pin RF receptacle, surface mount, up to 6 GHz"
 			(at 259.08 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -23333,7 +23333,7 @@
 				)
 			)
 		)
-		(property "Value" "LT1761-SD"
+		(property "Value" "SY6345AAC"
 			(at 209.296 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23354,7 +23354,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_LT1761-SD.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_SY6345AAC.pdf"
 			(at 209.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -23365,7 +23365,7 @@
 				)
 			)
 		)
-		(property "Description" "MICROPOWER 100mA LDO adjustable regulator, TSOT-23-5"
+		(property "Description" "40 V, 300 mA adjustable low-quiescent-current LDO regulator, SOT-23-5"
 			(at 209.55 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -23554,7 +23554,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 317.5 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -23821,7 +23821,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF100KT5E"
 			(at 172.72 127 0)
 			(hide yes)
 			(show_name no)
@@ -24002,7 +24002,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 93.98 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -24106,7 +24106,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "3.3 uF +/-10%, 250 V X7R ceramic capacitor, 2220; PSA FS55X335K251EHG"
 			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -24254,7 +24254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "20k"
 			(at 390.398 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24287,7 +24287,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
 			(at 388.62 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -24532,7 +24532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_10uH.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_MLZ2012M100WT000.pdf"
 			(at 87.63 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -24543,7 +24543,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "10 uH +/-20% multilayer ferrite inductor, 470 mOhm DCR, 150 mA saturation current, 0805; TDK MLZ2012M100WT000"
 			(at 87.63 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -24801,7 +24801,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 271.78 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -25058,7 +25058,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 345.44 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -25328,7 +25328,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "3.3 uF +/-10%, 250 V X7R ceramic capacitor, 2220; PSA FS55X335K251EHG"
 			(at 146.05 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -25653,7 +25653,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 193.548 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -25675,7 +25675,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
@@ -25686,7 +25686,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 187.96 127 0)
 			(hide yes)
 			(show_name no)
@@ -25756,7 +25756,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TMP117B"
+		(property "Value" "T117B"
 			(at 306.7218 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25778,7 +25778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_TMP117xxDRV.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_T117B.pdf"
 			(at 309.88 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -25789,7 +25789,7 @@
 				)
 			)
 		)
-		(property "Description" "Digital Temperature Sensor with I2C/SMBus Interface, 16 bits, ±0.3°C, one-shot conversion, alert, nist traceable, EEPROM, WSON"
+		(property "Description" "16-bit I2C digital temperature sensor, +/-0.5 deg C, -103 deg C to +153 deg C, DFN-6L 2 mm x 2 mm"
 			(at 309.88 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -26052,7 +26052,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x01"
+		(property "Value" "SMTSO3050CTJ"
 			(at 76.708 82.042 0)
 			(hide yes)
 			(show_name no)
@@ -26074,7 +26074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_Screw_Terminal_01x01.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_SMTSO3050CTJ.pdf"
 			(at 90.17 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -26085,7 +26085,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Tin-plated PCB surface-mount round threaded standoff, M3 x 5 mm"
 			(at 90.17 80.01 0)
 			(hide yes)
 			(show_name no)

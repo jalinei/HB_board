@@ -15602,7 +15602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:HC-PBB02-2-08-M"
+		(property "Footprint" "Footprints:HC-PBB02-2-08-Male"
 			(at 62.23 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16996,7 +16996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:HC-PBB02-2-08-M"
+		(property "Footprint" "Footprints:HC-PBB02-2-08-Male"
 			(at 50.8 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19445,7 +19445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:HC-PBB02-2-08-M"
+		(property "Footprint" "Footprints:HC-PBB02-2-08-Male"
 			(at 360.68 101.6 0)
 			(hide yes)
 			(show_name no)

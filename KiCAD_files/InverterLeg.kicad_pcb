@@ -202,7 +202,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 V to 30 V full-bridge transformer driver for low-power isolated supplies, SOT-23-6"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -594,7 +594,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -602,20 +602,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e2bd422-8783-47cc-bf54-1a9dd816ae4b")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -783,7 +769,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -800,20 +786,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b84f6248-113b-439b-a5e6-dd5d08cadbcd")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e2fb2b5-be0a-4fa2-a1cf-984bd2b92c69")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -972,7 +944,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF100KT5E"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -980,20 +952,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "e83d0d2e640bd473b48d7e0284fc3bc7586bd6985cc2"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb82aa69-123f-4f52-bca4-93a0c0a04ef9")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -1161,7 +1119,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1586,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1737,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Coaxial_Small"
+		(property "Value" "AIPEX-4"
 			(at 0 2.275 0)
 			(layer "F.Fab")
 			(uuid "ce42f88d-2c95-4675-b2ef-61b2cd9f256d")
@@ -1748,7 +1706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_Conn_Coaxial_Small.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_AIPEX-4.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1760,7 +1718,7 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "50 ohm I-PEX-compatible male-pin RF receptacle, surface mount, up to 6 GHz"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2182,7 +2140,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 pF +/-5%, 50 V C0G ceramic capacitor, 0603; Samsung CL10C200JB8NNNC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2199,20 +2157,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e790721-789e-415a-a94e-02f2b83b15a3")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "269e10abb8e08bedf6fe59138f738c816916bbb2d9"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a3ef26f-eb0f-44c5-a062-d998bc35093a")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2472,7 +2416,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "2LC000-739"
 			(at 0 2.327 0)
 			(layer "F.Fab")
 			(uuid "4559a4af-6f4f-4bba-b52a-ca8dfbf40576")
@@ -2483,7 +2427,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_CONN-TH_2LC000-739.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_2LC000-739.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2495,7 +2439,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Through-hole heavy-duty connector contact with M3 thread"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2620,7 +2564,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 0 1.35 90)
 			(layer "F.Fab")
 			(uuid "f3cdd464-9214-44fc-bea4-ac6e523a3db9")
@@ -2631,7 +2575,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2644,7 +2588,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2947,7 +2891,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AGM15T05LL"
 			(at 0 6 0)
 			(layer "F.Fab")
 			(uuid "92459a3f-4d57-4e3f-b6b6-d23c7a5d6725")
@@ -2958,7 +2902,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_Infineon_PG-HSOF-8-2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_AGM15T05LL.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2971,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "150 V, 180 A N-channel MOSFET with 5 mOhm RDS(on), TOLL-8L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3369,7 +3313,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_10uH.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_MLZ2012M100WT000.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3380,7 +3324,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "10 uH +/-20% multilayer ferrite inductor, 470 mOhm DCR, 150 mA saturation current, 0805; TDK MLZ2012M100WT000"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3557,7 +3501,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1002TCE"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3565,20 +3509,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "587483f3fd3ad8d455ca46df31bb2751f8d4cf649ee8"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a70ce74a-34cc-4e09-8405-30470f67f0ba")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -3724,7 +3654,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "THJP1206AST1"
 			(at 0 1.83 60)
 			(layer "F.Fab")
 			(uuid "1b18331e-6a99-4e78-9daa-1333cd44c9da")
@@ -3735,7 +3665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP_1206_3216Metric.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP1206AST1.pdf"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -3746,7 +3676,7 @@
 				)
 			)
 		)
-		(property "Description" "Thermal Bridge/Jumper"
+		(property "Description" "Electrically isolated aluminum nitride thermal jumper, 1206 surface-mount package"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -4030,7 +3960,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "b2cb634f-2c59-47fd-9d9d-b36c5a22d7d5")
@@ -4052,7 +3982,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 nF +/-10%, 50 V X7R ceramic capacitor, 0603; Samsung CL10B102KB8NNNC"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4077,21 +4007,7 @@
 				)
 			)
 		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64bd973a-36ec-47d0-8021-de8aeb1a3341")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1588"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4344,7 +4260,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "AGM15T05LL"
 			(at 0 6 90)
 			(layer "F.Fab")
 			(uuid "14ba339c-a3b9-489c-8fb9-85ef15eda818")
@@ -4355,7 +4271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_Infineon_PG-HSOF-8-2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C18221382_AGM15T05LL.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4368,7 +4284,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "150 V, 180 A N-channel MOSFET with 5 mOhm RDS(on), TOLL-8L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4777,7 +4693,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "178 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4785,20 +4701,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15a3d939-eb08-452a-a011-ce06c2ea2990")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -4966,7 +4868,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF100KT5E"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4974,20 +4876,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "b7f0312652245873b572e2e89e4b51494f4dce2bf518"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48c3fbe1-1194-4adf-a6a2-0e6dd911aa44")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -5131,7 +5019,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x01"
+		(property "Value" "SMTSO3050CTJ"
 			(at 0 4.027 0)
 			(layer "F.Fab")
 			(uuid "dd086ced-a2a0-4dfc-b802-bf0752ac7a95")
@@ -5142,7 +5030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_Screw_Terminal_01x01.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_SMTSO3050CTJ.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5154,7 +5042,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Tin-plated PCB surface-mount round threaded standoff, M3 x 5 mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5420,7 +5308,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5428,20 +5316,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "10a266b2-48df-4515-bd5d-26e27307ed5c")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -5609,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5784,7 +5658,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5792,20 +5666,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ff1fed9-148e-4f16-8f84-03d1093f0dee")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -5973,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5981,20 +5841,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a2e4a72-86df-49d8-b29b-b5dfec7dbb35")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -6398,7 +6244,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x01"
+		(property "Value" "SMTSO3050CTJ"
 			(at 0 4.027 0)
 			(layer "F.Fab")
 			(uuid "66993c81-0d6f-4664-b8fe-c2876a16683a")
@@ -6409,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_Screw_Terminal_01x01.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_SMTSO3050CTJ.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6421,7 +6267,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Tin-plated PCB surface-mount round threaded standoff, M3 x 5 mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6687,7 +6533,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF100KT5E"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6695,20 +6541,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "b7f0312652245873b572e2e89e4b51494f4dce2bf518"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f81f784c-b202-48cd-8f38-8e40c9ebd65b")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -6876,7 +6708,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6893,20 +6725,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "416fb404-b7e5-4445-96c0-1d82d84112b1")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60ea9fc1-74f3-4903-ad9f-3119a89587ac")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7315,7 +7133,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 V to 30 V full-bridge transformer driver for low-power isolated supplies, SOT-23-6"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7685,7 +7503,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(uuid "4851abc4-0386-44d5-a6d1-7d52f6e2588b")
@@ -7696,7 +7514,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7709,7 +7527,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8387,7 +8205,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1nF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c057f628-05b2-46bc-9c48-5a0a05a28df5")
@@ -8409,7 +8227,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 nF +/-10%, 50 V X7R ceramic capacitor, 0603; Samsung CL10B102KB8NNNC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8434,21 +8252,7 @@
 				)
 			)
 		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0eabbe6-18b5-4372-b9ca-a867de46ef14")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1588"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8711,7 +8515,7 @@
 				)
 			)
 		)
-		(property "Value" "LT1761-SD"
+		(property "Value" "SY6345AAC"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "6c1440fa-dc68-49bf-a3df-3e970e4301b4")
@@ -8722,7 +8526,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_LT1761-SD.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_SY6345AAC.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8733,7 +8537,7 @@
 				)
 			)
 		)
-		(property "Description" "MICROPOWER 100mA LDO adjustable regulator, TSOT-23-5"
+		(property "Description" "40 V, 300 mA adjustable low-quiescent-current LDO regulator, SOT-23-5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9112,7 +8916,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:HC-PBB02-2-08-M"
+	(footprint "Footprints:HC-PBB02-2-08-Male"
 		(layer "F.Cu")
 		(uuid "7f192ff1-6b32-46b4-8d28-d569d19396eb")
 		(at 147.8 132.5 -90)
@@ -9129,7 +8933,7 @@
 				)
 			)
 		)
-		(property "Value" "HC-PBB08-2-08-M-H4.0-G1-R-P-04"
+		(property "Value" "HC-PBB08-2-08-M-H1.0-G1-R-P-04"
 			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9141,7 +8945,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H4.0-G1-R-P-04.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H1.0-G1-R-P-04.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9154,7 +8958,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "8-position, dual-row, 0.8 mm-pitch vertical SMD board-to-board plug, 1.0 mm body height"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9172,7 +8976,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a87c3f5f-3279-492c-a9bb-b5f053ab06e9")
+			(uuid "fc30eb9c-be0d-456f-bd94-86f53957802e")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -9186,7 +8990,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8da751ab-455a-4713-9659-3a5ef75e5476")
+			(uuid "bf68e09d-c1ce-485b-87f5-5ab05fa7cb33")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -9199,12 +9003,6 @@
 		(path "/825708b8-3e60-4335-9db4-b44b9db8748a")
 		(sheetname "/")
 		(sheetfile "InverterLeg.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr board_only)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9336,9 +9134,9 @@
 			(uuid "d5f06f98-aaa9-4583-8057-d1b60a0ab9fc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/HC-PBB02-2-08-M-H4.step"
+		(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/HC-PBB02-2-08-Male.step"
 			(offset
-				(xyz -2.5 -2.2 0.1)
+				(xyz 0 -0 -0.1)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -9856,7 +9654,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9873,20 +9671,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00fa94b2-eede-4494-97bc-b39ec97f306b")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce26830c-ea32-4b78-b4b7-700ee056808a")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -10023,7 +9807,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(uuid "d388bdd6-4b92-46b4-a765-fc11e9faa6fc")
@@ -10034,7 +9818,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10047,7 +9831,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10349,7 +10133,7 @@
 				)
 			)
 		)
-		(property "Value" "TE1212-2W6ENT"
+		(property "Value" "TE1212-1W6ENT"
 			(at 0 4.85 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10361,7 +10145,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-2W6ENT.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-1W6ENT.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10374,7 +10158,7 @@
 				)
 			)
 		)
-		(property "Description" "High Frequency Wire Wound Transformers EP13 Platform"
+		(property "Description" "12 V to 12 V, 1 W DC-DC isolation transformer, 1:1.06 turns ratio, 3 kV isolation"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10990,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(uuid "907080cf-bd92-4a96-ab62-c2c77ae0879e")
@@ -11001,7 +10785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11014,7 +10798,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11339,7 +11123,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11356,20 +11140,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "658e0954-ab92-408b-84f9-6c67123f2bef")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4424535-fb95-4999-8290-c01c192bbdab")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -11528,7 +11298,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11536,20 +11306,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "597bc6ba-a010-444a-9916-d2cc09088bf4")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -11677,7 +11433,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:HC-PBB02-2-08-M"
+	(footprint "Footprints:HC-PBB02-2-08-Male"
 		(layer "F.Cu")
 		(uuid "92a86af1-1371-4adf-a1e4-e323f82309ae")
 		(at 135 72 180)
@@ -11694,7 +11450,7 @@
 				)
 			)
 		)
-		(property "Value" "HC-PBB08-2-08-M-H4.0-G1-R-P-04"
+		(property "Value" "HC-PBB08-2-08-M-H1.0-G1-R-P-04"
 			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11706,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H4.0-G1-R-P-04.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H1.0-G1-R-P-04.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11719,7 +11475,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "8-position, dual-row, 0.8 mm-pitch vertical SMD board-to-board plug, 1.0 mm body height"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11737,7 +11493,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b19b9bb7-d9ba-410c-ae8f-ca545e6ebefa")
+			(uuid "34807c58-06b0-4bcc-a561-e58bc8ef05bb")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -11751,7 +11507,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f837f979-48c4-45b8-9ae6-e581070ef916")
+			(uuid "cc3817d7-fa04-4e1b-bb5d-982cff37cc4a")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -11764,12 +11520,6 @@
 		(path "/4fd916c4-2071-4218-9853-0a742808d9db")
 		(sheetname "/")
 		(sheetfile "InverterLeg.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr board_only)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -11901,9 +11651,9 @@
 			(uuid "3ae8da63-02ab-40bc-9a19-9285ab05d621")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/HC-PBB02-2-08-M-H4.step"
+		(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/HC-PBB02-2-08-Male.step"
 			(offset
-				(xyz -2.5 -2.2 0.1)
+				(xyz 0 -0 -0.1)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12078,7 +11828,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12086,20 +11836,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0ced340-aad2-4072-af73-b5c4bfd353f8")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -12585,7 +12321,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1002TCE"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12593,20 +12329,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "587483f3fd3ad8d455ca46df31bb2751f8d4cf649ee8"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "966edf3d-5502-4a55-9926-fbdabeee95c5")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -12774,7 +12496,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF100KT5E"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12782,20 +12504,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "e83d0d2e640bd473b48d7e0284fc3bc7586bd6985cc2"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41adadde-1026-45b5-9933-4b0ca3ad50d5")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -12940,7 +12648,7 @@
 				)
 			)
 		)
-		(property "Value" "TE1212-2W6ENT"
+		(property "Value" "TE1212-1W6ENT"
 			(at 0 4.85 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12952,7 +12660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-2W6ENT.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54443261_TE1212-1W6ENT.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12965,7 +12673,7 @@
 				)
 			)
 		)
-		(property "Description" "High Frequency Wire Wound Transformers EP13 Platform"
+		(property "Description" "12 V to 12 V, 1 W DC-DC isolation transformer, 1:1.06 turns ratio, 3 kV isolation"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13853,7 +13561,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -13884,20 +13592,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "255e3607-abcb-4d76-a1ac-5884fd25716f")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
-			(at 0 0 210)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4638f0c6-b0fe-4a87-8922-6bc34186cadc")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -14044,7 +13738,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "3.3 uF +/-10%, 250 V X7R ceramic capacitor, 2220; PSA FS55X335K251EHG"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14052,20 +13746,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "0db098cf967df37918c59b0e08ade59c874a0accb68a991e"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee371eef-5ee7-4e8c-b26f-5ed621abb9c0")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -14212,7 +13892,7 @@
 				)
 			)
 		)
-		(property "Value" "TMP117xxDRV"
+		(property "Value" "T117B"
 			(at 0 1.95 30)
 			(layer "F.Fab")
 			(uuid "23c3ecc1-364c-4479-bce3-584335e79762")
@@ -14223,7 +13903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_TMP117xxDRV.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_T117B.pdf"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -14234,7 +13914,7 @@
 				)
 			)
 		)
-		(property "Description" "Digital Temperature Sensor with I2C/SMBus Interface, 16 bits, ±0.3°C, one-shot conversion, alert, nist traceable, EEPROM, WSON"
+		(property "Description" "16-bit I2C digital temperature sensor, +/-0.5 deg C, -103 deg C to +153 deg C, DFN-6L 2 mm x 2 mm"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -14611,7 +14291,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -14642,20 +14322,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1baa9254-efc7-4235-86ef-b666b4142249")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "2a7756d0bc30aa9cc4f0a80c55ca60c5e6f002aa0dc4"
-			(at 0 0 330)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "38c79d6d-d56a-44b0-9de7-5bc1c844f51f")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -14802,7 +14468,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14810,20 +14476,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e750f74-88a2-495e-9009-9c468bfb0d23")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -14991,7 +14643,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "178 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15155,7 +14807,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_10uH.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88173_MLZ2012M100WT000.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15166,7 +14818,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "10 uH +/-20% multilayer ferrite inductor, 470 mOhm DCR, 150 mA saturation current, 0805; TDK MLZ2012M100WT000"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15593,7 +15245,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15601,20 +15253,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09c0e632-495b-4598-9997-aae4841b292d")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -15760,7 +15398,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 0 1.35 90)
 			(layer "F.Fab")
 			(uuid "18ae338c-6111-4991-b714-15f86405bbe0")
@@ -15771,7 +15409,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15784,7 +15422,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16087,7 +15725,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG4010"
+		(property "Value" "PMEG4010ESBYL"
 			(at 0 1.35 0)
 			(layer "F.Fab")
 			(uuid "9f795704-aa26-4cc3-b712-cb063f869465")
@@ -16098,7 +15736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C478156_PMEG4010ESBYL.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16111,7 +15749,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40 V, 1 A low-forward-voltage Schottky barrier rectifier, DSN1006-2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16396,7 +16034,7 @@
 			)
 		)
 	)
-	(footprint "Footprints:HC-PBB02-2-08-M"
+	(footprint "Footprints:HC-PBB02-2-08-Male"
 		(layer "F.Cu")
 		(uuid "c9ea292c-5ef5-47fb-87a3-088f472f5516")
 		(at 148.5 72 180)
@@ -16413,7 +16051,7 @@
 				)
 			)
 		)
-		(property "Value" "HC-PBB08-2-08-M-H4.0-G1-R-P-04"
+		(property "Value" "HC-PBB08-2-08-M-H1.0-G1-R-P-04"
 			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16425,7 +16063,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H4.0-G1-R-P-04.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41421120_HC-PBB08-2-08-M-H1.0-G1-R-P-04.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16438,7 +16076,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "8-position, dual-row, 0.8 mm-pitch vertical SMD board-to-board plug, 1.0 mm body height"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16456,7 +16094,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f2640a8-c143-4c21-a23f-ad3dc324cbbb")
+			(uuid "5eeb0175-b597-4e6d-bfaf-078aa9f64fff")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -16470,7 +16108,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33175906-8cb9-4152-b0a7-ab8878e9cc5a")
+			(uuid "f22f25ae-eab6-45a9-aafc-07eb3b5dfca0")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -16483,12 +16121,6 @@
 		(path "/32447cfd-b15f-4dbb-956e-664f7418a665")
 		(sheetname "/")
 		(sheetfile "InverterLeg.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "8" "7" "6" "5")
-			)
-		)
 		(attr board_only)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16620,9 +16252,9 @@
 			(uuid "6abf5141-a788-454b-a960-8ebe3e5d8cc2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/HC-PBB02-2-08-M-H4.step"
+		(model "${KIPRJMOD}/libs/footprints.pretty/footprints.3dshapes/HC-PBB02-2-08-Male.step"
 			(offset
-				(xyz -2.5 -2.2 0.1)
+				(xyz 0 -0 -0.1)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -16650,7 +16282,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "THJP1206AST1"
 			(at 0 1.83 120)
 			(layer "F.Fab")
 			(uuid "3690bcd1-3084-4896-b078-334bd6641bc5")
@@ -16661,7 +16293,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP_1206_3216Metric.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C3029094_THJP1206AST1.pdf"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -16672,7 +16304,7 @@
 				)
 			)
 		)
-		(property "Description" "Thermal Bridge/Jumper"
+		(property "Description" "Electrically isolated aluminum nitride thermal jumper, 1206 surface-mount package"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -16829,7 +16461,7 @@
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x01"
+		(property "Value" "SMTSO3050CTJ"
 			(at 0 4.027 0)
 			(layer "F.Fab")
 			(uuid "279c3930-1c86-4d8e-a021-81c423982d42")
@@ -16840,7 +16472,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_Screw_Terminal_01x01.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2915636_SMTSO3050CTJ.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16852,7 +16484,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Tin-plated PCB surface-mount round threaded standoff, M3 x 5 mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17118,7 +16750,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "51 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF510JT5E"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17126,20 +16758,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5eaee029-fc05-4032-949c-cacc004b7861")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -17285,7 +16903,7 @@
 				)
 			)
 		)
-		(property "Value" "LT1761-SD"
+		(property "Value" "SY6345AAC"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "5f48f530-c6fe-45bd-9ab6-98f317a6aa20")
@@ -17296,7 +16914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_LT1761-SD.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C98119_SY6345AAC.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17307,7 +16925,7 @@
 				)
 			)
 		)
-		(property "Description" "MICROPOWER 100mA LDO adjustable regulator, TSOT-23-5"
+		(property "Description" "40 V, 300 mA adjustable low-quiescent-current LDO regulator, SOT-23-5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17704,7 +17322,7 @@
 				)
 			)
 		)
-		(property "Value" "24CS02"
+		(property "Value" "24C02S(XBLW)"
 			(at 0 2.4 140)
 			(layer "F.Fab")
 			(uuid "541d67a4-e196-485f-ae9e-1120614cdf24")
@@ -17715,7 +17333,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C18723540_24C02S_XBLW.pdf"
 			(at 0 0 140)
 			(layer "F.Fab")
 			(hide yes)
@@ -17726,7 +17344,7 @@
 				)
 			)
 		)
-		(property "Description" "I2C Serial EEPROM, 2Kb (128x8) with Unique Serial Number,"
+		(property "Description" "2 Kbit I2C serial EEPROM, 1.8 V to 5.5 V, 1 MHz, SOT-23-5"
 			(at 0 0 140)
 			(layer "F.Fab")
 			(hide yes)
@@ -18256,7 +17874,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18273,20 +17891,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b1d207a1-becc-4ac6-83ee-2d48d8a61628")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b47b58fb-5837-40ca-8e31-e9f4f44c7bb5")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -18570,7 +18174,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18578,20 +18182,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "6ef4274804797e6557917bb79bd82a607ad050021f56b2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3db226f-7b31-4d63-9441-ef241c271677")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -18884,7 +18474,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "3.3 uF +/-10%, 250 V X7R ceramic capacitor, 2220; PSA FS55X335K251EHG"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18892,20 +18482,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "0db098cf967df37918c59b0e08ade59c874a0accb68a991e"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be798b76-314a-4f3f-96c1-8a8d2476b24d")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -19050,7 +18626,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "2LC000-739"
 			(at 0 2.327 0)
 			(layer "F.Fab")
 			(uuid "9c6cc8eb-6b2c-4b1d-b7bc-8ccbbc692af6")
@@ -19061,7 +18637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_CONN-TH_2LC000-739.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C54935091_2LC000-739.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19073,7 +18649,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Through-hole heavy-duty connector contact with M3 thread"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19198,7 +18774,7 @@
 				)
 			)
 		)
-		(property "Value" "UCC21520"
+		(property "Value" "UCC21520DWR"
 			(at 0 6.1 90)
 			(layer "F.Fab")
 			(uuid "f7766c65-174f-40ab-96ea-68c408fbe48c")
@@ -19209,7 +18785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C601651_UCC21520.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C601651_UCC21520DWR.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19220,7 +18796,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.7 kVrms isolated dual-channel gate driver, 4 A source and 6 A sink, wide-body SOIC-16"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19686,7 +19262,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10 uF +/-10%, 50 V X5R ceramic capacitor, 0805; Murata GRM21BR61H106KE43L"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19694,20 +19270,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "3c8c36ffa6a0eb88db22fa786b0d8984706c66e773e3ba"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ffd1b5e-539d-4964-b17a-57de2323242e")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -19875,7 +19437,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "51 ohm +/-1%, 100 mW thick-film resistor, 0603; UNI-ROYAL 0603WAF510JT5E"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19883,20 +19445,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Reserved1" "09f3912dc83c8a80315b578c251a24aaa57a6fa6cfa9"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c88311f-2285-47fd-a629-9b2b929c6d87")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
 				)
 			)
 		)
@@ -20064,7 +19612,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF +/-10%, 50 V X7R ceramic capacitor, 0603; YAGEO CC0603KRX7R9BB104"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20081,20 +19629,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "63454129-442b-4f16-b4e2-ea22781e5d86")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "19d8e62435aae811d30466f8cc008899f37785f68fd5"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "354a113a-fe79-47fc-bde9-ea545e7cfa0c")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -20229,7 +19763,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_Coaxial_Small"
+		(property "Value" "AIPEX-4"
 			(at 0 2.275 0)
 			(layer "F.Fab")
 			(uuid "bce39c92-ffb9-4a4e-883a-b3cc480ebd74")
@@ -20240,7 +19774,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_Conn_Coaxial_Small.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C41432125_AIPEX-4.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20252,7 +19786,7 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "50 ohm I-PEX-compatible male-pin RF receptacle, surface mount, up to 6 GHz"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20799,7 +20333,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 pF +/-5%, 50 V C0G ceramic capacitor, 0603; Samsung CL10C200JB8NNNC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20816,20 +20350,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b56a2139-8876-46e7-86ea-50f56e15979d")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-					(italic yes)
-				)
-			)
-		)
-		(property "Reserved1" "269e10abb8e08bedf6fe59138f738c816916bbb2d9"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "77fca454-7a48-4ea6-ac78-4a42b8f5f52b")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -21091,7 +20611,7 @@
 				)
 			)
 		)
-		(property "Value" "TMP117xxDRV"
+		(property "Value" "T117B"
 			(at 0 1.95 150)
 			(layer "F.Fab")
 			(uuid "2e986d81-6a25-4674-802d-11a0fd602bce")
@@ -21102,7 +20622,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_TMP117xxDRV.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5447196_T117B.pdf"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -21113,7 +20633,7 @@
 				)
 			)
 		)
-		(property "Description" "Digital Temperature Sensor with I2C/SMBus Interface, 16 bits, ±0.3°C, one-shot conversion, alert, nist traceable, EEPROM, WSON"
+		(property "Description" "16-bit I2C digital temperature sensor, +/-0.5 deg C, -103 deg C to +153 deg C, DFN-6L 2 mm x 2 mm"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)

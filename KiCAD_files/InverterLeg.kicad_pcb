@@ -1097,7 +1097,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "27k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "87b3222b-bcae-4f1a-964c-ab0ae17fd2fd")
@@ -1119,7 +1119,7 @@
 				)
 			)
 		)
-		(property "Description" "20 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
+		(property "Description" "27 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1130,7 +1130,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25771"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4671,7 +4671,7 @@
 				)
 			)
 		)
-		(property "Value" "178k"
+		(property "Value" "510k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "0d6784b6-4898-4f27-89b0-ce64449f257b")
@@ -4693,7 +4693,7 @@
 				)
 			)
 		)
-		(property "Description" "178 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
+		(property "Description" "510 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4718,7 +4718,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C26995"
+		(property "LCSC" "C11616"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5461,7 +5461,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "27k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "b6445ce9-3320-4807-be8e-75fd7c5e8b2f")
@@ -5483,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Description" "20 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
+		(property "Description" "27 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5494,7 +5494,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25765"
+		(property "LCSC" "C25771"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9003,6 +9003,12 @@
 		(path "/825708b8-3e60-4335-9db4-b44b9db8748a")
 		(sheetname "/")
 		(sheetfile "InverterLeg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "8" "7" "6" "5")
+			)
+		)
 		(attr board_only)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -11520,6 +11526,12 @@
 		(path "/4fd916c4-2071-4218-9853-0a742808d9db")
 		(sheetname "/")
 		(sheetfile "InverterLeg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "8" "7" "6" "5")
+			)
+		)
 		(attr board_only)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -14621,7 +14633,7 @@
 				)
 			)
 		)
-		(property "Value" "178k"
+		(property "Value" "510k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "b3a3ddc3-a1ed-4ef7-94e9-edb85d332c6b")
@@ -14643,7 +14655,7 @@
 				)
 			)
 		)
-		(property "Description" "178 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
+		(property "Description" "510 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14654,7 +14666,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C26995"
+		(property "LCSC" "C11616"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16121,6 +16133,12 @@
 		(path "/32447cfd-b15f-4dbb-956e-664f7418a665")
 		(sheetname "/")
 		(sheetfile "InverterLeg.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "8" "7" "6" "5")
+			)
+		)
 		(attr board_only)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect

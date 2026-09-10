@@ -3882,7 +3882,7 @@
 				)
 			)
 			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -22981,7 +22981,7 @@
 				)
 			)
 		)
-		(property "Description" "50 ohm I-PEX-compatible male-pin RF receptacle, surface mount, up to 6 GHz"
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 259.08 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -23166,7 +23166,7 @@
 				)
 			)
 		)
-		(property "Description" "50 ohm I-PEX-compatible male-pin RF receptacle, surface mount, up to 6 GHz"
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 259.08 184.15 0)
 			(hide yes)
 			(show_name no)

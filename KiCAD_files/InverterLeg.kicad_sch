@@ -6457,9 +6457,9 @@
 		)
 		(uuid "3542c5a1-a9c5-4676-8fce-b379d3e9facb")
 	)
-	(text "V_{OUT} = 0.6 x (1 + (R610/R611))\nV_{OUT} = @{round(0.6*(1+510000/27000),2)}V\n"
+	(text "V_{OUT} = 0.6 x (1 + (R610/R611))\nV_{OUT} = @{round(0.6 * (1 + (${/8d0c1d66-35ef-4a53-a28f-436a11b54f42/863dab66-1bd6-49ee-8756-763493bfe5e2:Value}/${/8d0c1d66-35ef-4a53-a28f-436a11b54f42/e29cd323-d1f9-4fc6-be36-935751522f90:Value})),2)}V\n"
 		(exclude_from_sim no)
-		(at 378.714 61.214 0)
+		(at 382.27 60.198 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6632,17 +6632,6 @@
 			)
 		)
 		(uuid "80d81807-be39-4315-bd84-a2e1dd12e657")
-	)
-	(text "V_{OUT} = 0.6 x (1 + (R612/R613))\nV_{OUT} = @{round(0.6*(1+510000/27000),2)}V\n"
-		(exclude_from_sim no)
-		(at 202.692 62.992 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "836fb8bd-d7a1-4408-a997-1c88f12aeeb8")
 	)
 	(text "The VPS8701B is enabled when EN is floating or pulled up.\nIt is DISABLED when connected to GND"
 		(exclude_from_sim no)
@@ -6882,6 +6871,17 @@
 			)
 		)
 		(uuid "f1458a2c-9cd3-4659-ab65-75bd7b7641cc")
+	)
+	(text "V_{OUT} = 0.6 x (1 + (R612/R613))\nV_{OUT} = @{round(0.6 * (1 + (${/8d0c1d66-35ef-4a53-a28f-436a11b54f42/153ae966-be28-4ef2-b43e-ea2e9beaff1f:Value}/${/8d0c1d66-35ef-4a53-a28f-436a11b54f42/9b8227a6-f6d8-4461-b56f-2b44b0c1a3de:Value})),2)}V\n"
+		(exclude_from_sim no)
+		(at 217.424 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdc3b385-4e93-4fd4-9e5a-aa8578a0ed78")
 	)
 	(junction
 		(at 194.31 132.08)
@@ -13729,7 +13729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "158k"
 			(at 227.838 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13762,7 +13762,7 @@
 				)
 			)
 		)
-		(property "Description" "510 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
+		(property "Description" ""
 			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13773,7 +13773,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11616"
+		(property "LCSC" "C99856"
 			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19749,7 +19749,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "158k"
 			(at 390.398 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19782,7 +19782,7 @@
 				)
 			)
 		)
-		(property "Description" "510 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF1783TCE"
+		(property "Description" ""
 			(at 388.62 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19804,7 +19804,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11616"
+		(property "LCSC" "C99856"
 			(at 388.62 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -21138,7 +21138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "10k"
 			(at 227.838 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21171,7 +21171,7 @@
 				)
 			)
 		)
-		(property "Description" "27 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
+		(property "Description" ""
 			(at 226.06 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -21182,7 +21182,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25771"
+		(property "LCSC" "C2906861"
 			(at 226.06 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -24162,7 +24162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "10k"
 			(at 390.398 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24195,7 +24195,7 @@
 				)
 			)
 		)
-		(property "Description" "27 kohm +/-1%, 62.5 mW thick-film resistor, 0402; UNI-ROYAL 0402WGF2002TCE"
+		(property "Description" ""
 			(at 388.62 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -24206,7 +24206,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25771"
+		(property "LCSC" "C2906861"
 			(at 388.62 49.53 0)
 			(hide yes)
 			(show_name no)

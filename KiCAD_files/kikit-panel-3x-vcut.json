@@ -1,0 +1,34 @@
+{
+    "layout": {
+        "type": "grid",
+        "rows": 1,
+        "cols": 3,
+        "hspace": "0mm",
+        "vspace": "0mm",
+        "vbackbone": "10mm",
+        "hbackbone": "0mm",
+        "vbonecut": true,
+        "hbonecut": true,
+        "renameref": "Board_{n}-{orig}"
+    },
+    "tabs": {
+        "type": "fixed",
+        "hcount": 1,
+        "vcount": 0,
+        "hwidth": "5mm",
+        "vwidth": "0mm",
+        "mindistance": "0mm"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "layer": "Cmts.User",
+        "template": "V-CUT"
+    },
+    "post": {
+        "type": "auto",
+        "origin": "tl",
+        "refillzones": true,
+        "reconstructarcs": true,
+        "edgewidth": "0.05mm"
+    }
+}

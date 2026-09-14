@@ -23003,7 +23003,7 @@
 				)
 			)
 		)
-		(property "Position Offset" ""
+		(property "Rotation Offset" "180"
 			(at 259.08 207.01 90)
 			(hide yes)
 			(show_name no)
@@ -23188,7 +23188,7 @@
 				)
 			)
 		)
-		(property "Position Offset" ""
+		(property "Rotation Offset" "180"
 			(at 259.08 184.15 90)
 			(hide yes)
 			(show_name no)
